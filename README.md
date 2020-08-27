@@ -4,7 +4,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/master/LICENSE)
 [![Docsify Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/docsifyjs/Lobby)
 
-> This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to @programmieraffe for the suggestion).
+> This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@programmieraffe](https://github.com/programmieraffe) for the suggestion).
 
 📸 Docsify Open Course Screenshot
 ---
