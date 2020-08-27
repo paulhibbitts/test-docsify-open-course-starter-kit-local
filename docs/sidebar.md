@@ -3,10 +3,10 @@
 - [Week 3 (May 23 - 29)](module-3)
 - [Week 4 (May 30 - Jun 5)](module-4)
 - **LMS Links**
-- [<i class="fas fa-calendar"></i> Calendar](https://sso.canvaslms.com/calendar)
-- [<i class="fas fa-edit"></i> Assignments](https://sso.canvaslms.com/courses/1924881/assignments )
-- [<i class="fas fa-check-circle"></i> Quizzes](https://sso.canvaslms.com/courses/1924881/quizzes)
-- [<i class="fas fa-comments"></i> Class Discussions](https://sso.canvaslms.com/courses/1924881/discussion_topics)
-- [<i class="fas fa-list"></i> Syllabus](https://sso.canvaslms.com/courses/1924881/assignments/syllabus)
+- [:fas fa-desktop fa-fw: Calendar](https://sso.canvaslms.com/calendar)
+- [:fas fa-edit fa-fw: Assignments](https://sso.canvaslms.com/courses/1924881/assignments )
+- [:fas fa-check-circle fa-fw: Quizzes](https://sso.canvaslms.com/courses/1924881/quizzes)
+- [:fas fa-comments fa-fw: Class Discussions](https://sso.canvaslms.com/courses/1924881/discussion_topics)
+- [:fas fa-list fa-fw: Syllabus](https://sso.canvaslms.com/courses/1924881/assignments/syllabus)
 - **Project Documentation**
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/master/README.md)
