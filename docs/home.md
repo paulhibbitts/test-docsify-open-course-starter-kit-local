@@ -1,14 +1,8 @@
 # CPT363 User Interface Design
 
-<sl-alert class="alert-grey-background" type="info" open>
-
-## Important Reminders
-
-  * [Journey Map](#) assignment <sl-badge type="info">Jun 12 11:59pm PDT</sl-icon></sl-badge>
-  * [Course Reflection Log](#) assignment <sl-badge type="info">Aug 3rd 11:59pm PDT</sl-icon></sl-badge>
-
-</sl-alert>
-
+> ### Important Reminders
+> * [Journey Map](#) assignment <span class='badge'> Tue Jun 12th 11:59pm PDT</span>
+> * [Course Reflection Log](#) assignment <span class='badge'> Fri Aug 3rd 11:59pm PDT</span>
 ## Jun 6th Class Preparations
 
 ### Required Reading
