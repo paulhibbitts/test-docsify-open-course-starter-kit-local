@@ -1,97 +1,3 @@
-:root {
-  --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
-  --base-font-size: 18px;
-  --heading-h3-font-weight: 600;
-  --link-color: #0A75BD;
-  --navbar-root-color: #0A75BD;
-  --navbar-root-color--active: #0A75BD;
-  --navbar-root-color--hover: #0A75BD;
-  --sidebar-name-color: #0A75BD;
-  --sidebar-nav-link-color--active: #4D4D4D;
-  --sidebar-nav-link-font-weight--active: bold;
-  --pagination-title-color: #0B87DA;
-}
-
-/* https://google-webfonts-helper.herokuapp.com/fonts/source-sans-pro?subsets=latin */
-/* source-sans-pro-regular - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/source-sans-pro-v14-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
-       url('../fonts/source-sans-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-/* source-sans-pro-italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url('../fonts/source-sans-pro-v14-latin-italic.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'),
-       url('../fonts/source-sans-pro-v14-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-italic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-italic.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-/* source-sans-pro-600 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/source-sans-pro-v14-latin-600.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
-       url('../fonts/source-sans-pro-v14-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-600.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-/* source-sans-pro-600italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 600;
-  src: url('../fonts/source-sans-pro-v14-latin-600italic.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'),
-       url('../fonts/source-sans-pro-v14-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-600italic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-600italic.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-/* source-sans-pro-700 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/source-sans-pro-v14-latin-700.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
-       url('../fonts/source-sans-pro-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-/* source-sans-pro-700italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 700;
-  src: url('../fonts/source-sans-pro-v14-latin-700italic.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'),
-       url('../fonts/source-sans-pro-v14-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/source-sans-pro-v14-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-700italic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/source-sans-pro-v14-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/source-sans-pro-v14-latin-700italic.svg#SourceSansPro') format('svg'); /* Legacy iOS */
-}
-
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -132,7 +38,7 @@
     color: #fff;
     background-color: #6c757d;
     display: inline-block;
-    padding: .25em .4em .25em 1.6em;
+    padding: .25em .4em .25em .4em;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
@@ -168,17 +74,6 @@
   transition: all .2s;
 }
 
-.markdown-section blockquote h2 {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.markdown-section blockquote h3 {
-  margin: 0;
-  padding: 0;
-}
-
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: 0;
@@ -189,7 +84,6 @@
 
 .markdown-section blockquote ul li {
   padding-left: 0em;
-  text-indent: -1em;
 }
 
 .markdown-section blockquote ul li:before {
@@ -214,17 +108,6 @@
   quotes: "“""”""‘""’";
 }
 
-.reminders h2 {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.reminders h3 {
-  margin: 0;
-  padding: 0;
-}
-
 .reminders ul {
   list-style: none;
   margin-top: 0;
@@ -235,7 +118,6 @@
 
 .reminders ul li {
   padding-left: 0em;
-  text-indent: -1em;
 }
 
 .reminders ul li:before {
