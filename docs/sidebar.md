@@ -3,10 +3,10 @@
 - [Week 3 (May 23 - 29)](module-3)
 - [Week 4 (May 30 - Jun 5)](module-4)
 - **LMS Links**
-- [<i class="fas fa-calendar"></i> Calendar](https://canvas.instructure.com/calendar)
-- [<i class="fas fa-edit"></i> Assignments](https://canvas.instructure.com/courses/1924881/assignments )
-- [<i class="fas fa-check-circle"></i> Quizzes](https://canvas.instructure.com/courses/1924881/quizzes)
-- [<i class="fas fa-comments"></i> Class Discussions](https://canvas.instructure.com/courses/1924881/discussion_topics)
-- [<i class="fas fa-list"></i> Syllabus](https://canvas.instructure.com/courses/1924881/assignments/syllabus)
+- [![Calendar](https://icongr.am/fontawesome/calendar.svg?size=16&color=808080) Calendar](https://sso.canvaslms.com/calendar)
+- [![Assignments](https://icongr.am/fontawesome/pencil.svg?size=16&color=808080) Assignments](https://sso.canvaslms.com/courses/1924881/assignments )
+- [![Quizzes](https://icongr.am/fontawesome/check-circle.svg?size=16&color=808080) Quizzes](https://sso.canvaslms.com/courses/1924881/quizzes)
+- [![Class Discussions](https://icongr.am/fontawesome/comments-o.svg?size=16&color=808080) Class Discussions](https://sso.canvaslms.com/courses/1924881/discussion_topics)
+- [![Syllabus](https://icongr.am/fontawesome/list.svg?size=16&color=808080) Syllabus](https://sso.canvaslms.com/courses/1924881/assignments/syllabus)
 - **Project Documentation**
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/master/README.md)
