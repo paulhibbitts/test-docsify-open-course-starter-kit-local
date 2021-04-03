@@ -1,4 +1,4 @@
-# Contact
+## Contact
 
 **Course Instructor**  
 Some Name  
