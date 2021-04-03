@@ -205,7 +205,7 @@
   padding-right: 5px;
 }
 
-#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z {
+.markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
     width: 2em;
     color: white;
     font-weight: 600;
