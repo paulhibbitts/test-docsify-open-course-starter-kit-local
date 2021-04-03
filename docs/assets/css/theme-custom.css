@@ -204,3 +204,12 @@
   content: '\2713';
   padding-right: 5px;
 }
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z {
+    width: 2em;
+    color: white;
+    font-weight: 600;
+    margin-top: 1.00rem;
+    padding-left: 0.5rem;
+    background: #666666;
+}
