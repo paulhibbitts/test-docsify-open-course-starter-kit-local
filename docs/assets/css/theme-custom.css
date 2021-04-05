@@ -229,6 +229,8 @@
   }
 }
 
-.markdown-section .fa-fw {
-    text-align: left;
+.markdown-section h3 .svg-inline--fa {
+  text-align: left;
+  margin-left: -3px;
+  margin-right: auto;
 }
