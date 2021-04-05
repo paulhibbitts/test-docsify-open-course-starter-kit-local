@@ -20,7 +20,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 **Installation Steps**  
 
 1. Fork this repository
-2. Go to **Settings** of your repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.now.sh/deploy?id=gitlab-pages))
+2. Go to **Settings** of your repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 3. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it can take up to 20 minutes for your site to be initially available)
 
 Want to delete the fork dependency of your newly created repository?
@@ -40,7 +40,7 @@ Want to delete the fork dependency of your newly created repository?
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.now.sh/deploy?id=gitlab-pages)!
+Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
 
 🧩 Embedding Docsify Page Content into Other Systems
 ---  
