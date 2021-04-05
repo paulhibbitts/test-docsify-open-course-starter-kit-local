@@ -228,3 +228,7 @@
     display: inline-block;
   }
 }
+
+.markdown-section .fa-fw {
+    text-align: left;
+}
