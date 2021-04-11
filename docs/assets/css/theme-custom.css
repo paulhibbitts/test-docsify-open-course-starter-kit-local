@@ -235,3 +235,7 @@
   margin-left: -3px;
   margin-right: auto;
 }
+
+.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 4.5rem;
+}
