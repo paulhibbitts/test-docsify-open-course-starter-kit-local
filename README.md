@@ -1,7 +1,7 @@
 # Docsify Open Course Starter Kit Local
 
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/main/LICENSE)
 [![Docsify Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/docsifyjs/Lobby)
 
 > This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@programmieraffe](https://github.com/programmieraffe) for the suggestion).
@@ -27,7 +27,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 🔗 Change Linked GitHub Repository
 ---
 1. Edit the file index.html in the 'docs' folder of repository
-2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit/tree/master/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
+2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
 3. Commit your changes
 
 💻 Editing your Docsify Site Locally
