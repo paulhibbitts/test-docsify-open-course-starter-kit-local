@@ -63,6 +63,15 @@ To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
 For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/ would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
+🧰 Troubleshooting
+---  
+
+If the automatically generated 'Edit this Page on GitHub' link is not working, you can manually set the source URL to your GitHub Repository.
+
+1. Edit the file index.html in your repository
+2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
+3. Commit your changes
+
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
