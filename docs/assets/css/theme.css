@@ -76,30 +76,6 @@
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: .5em;
-  padding-top: 0;.app-nav:not(:empty) ~ main .markdown-section {
-    padding-top: 4.5rem;
-}
-
-.pagination-item, .pagination-item-title {
-  opacity: .9 !important;
-}
-
-.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
-  opacity: .9 !important;
-  transition: all .2s;
-}
-
-.markdown-section {
-    padding: 1rem 40px;
-}
-
-.markdown-section blockquote {
-    margin: 1.5em 0;
-}
-
-.markdown-section blockquote ul {
-  list-style: none;
-  margin-top: .5em;
   padding-top: 0;
   margin-bottom: .5em;
   padding-bottom: 0;
