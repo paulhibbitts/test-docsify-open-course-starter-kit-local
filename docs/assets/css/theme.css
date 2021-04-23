@@ -76,6 +76,30 @@
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: .5em;
+  padding-top: 0;.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 4.5rem;
+}
+
+.pagination-item, .pagination-item-title {
+  opacity: .9 !important;
+}
+
+.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
+  opacity: .9 !important;
+  transition: all .2s;
+}
+
+.markdown-section {
+    padding: 1rem 40px;
+}
+
+.markdown-section blockquote {
+    margin: 1.5em 0;
+}
+
+.markdown-section blockquote ul {
+  list-style: none;
+  margin-top: .5em;
   padding-top: 0;
   margin-bottom: .5em;
   padding-bottom: 0;
@@ -209,7 +233,7 @@
     text-align: left;
 }
 
-.markdown-section .video-container {
+.markdown-section .video-container-4by3 {
   position: relative;
   padding-bottom: 75%;
   height: 0;
@@ -217,15 +241,15 @@
   max-width: 100%;
 }
 
-.markdown-section .video-container-4by3 {
-  padding-bottom: 75%;
-}
-
 .markdown-section .video-container-16by9 {
+  position: relative;
   padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-.markdown-section .video-container iframe, .embed-container object, .embed-container embed {
+.video-container-16by9 iframe, .video-container-4by3 iframe, .embed-container object, .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
