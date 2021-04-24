@@ -98,9 +98,16 @@
             // PLUGIN SETTINGS
             // -----------------------------------------------------------------
             search: {
-                depth      : 3,
-                noData     : 'No matches found.',
-                placeholder: 'Enter search text here...'
+              depth       : 3,
+              noData      : 'No matches found.',
+              placeholder : 'Enter search text here...'
+            },
+
+            pagination: {
+              previousText    : 'PREV',
+              nextText        : 'NEXT',
+              crossChapter    : true,
+              crossChapterText: true,
             },
 
           // CUSTOM PLUGINS
@@ -148,6 +155,10 @@
     <!-- https://unpkg.com/docsify-fontawesome/ -->
     <script src="assets/vendor/docsify/plugins/docsify-fontawesome.min.js"></script>
 
+    <!-- Font Awesome -->
+    <!-- https://unpkg.com/@fortawesome/fontawesome-free/ -->
+    <script defer src="assets/vendor/fontawesome/js/all.js"></script> <!--load all styles -->
+
     <!-- Tabs Plugin -->
     <!-- https://www.jsdelivr.com/package/npm/docsify-tabs/ -->
     <script src="assets/vendor/docsify/plugins/docsify-tabs@1"></script>
@@ -162,10 +173,6 @@
           document.write('<script src="assets/vendor/docsify/plugins/docsify-pagination.min.js"><\/script>');
       }
     </script>
-
-    <!-- Font Awesome -->
-    <!-- https://unpkg.com/@fortawesome/fontawesome-free/ -->
-    <script defer src="assets/vendor/fontawesome/js/all.js"></script> <!--load all styles -->
 
 </body>
 </html>
