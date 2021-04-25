@@ -2,7 +2,9 @@
 
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/main/LICENSE)
-[![Docsify Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/docsifyjs/Lobby)
+<a href="https://discord.gg/zT8eS8ZG">
+    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
+</a>
 
 > This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@programmieraffe](https://github.com/programmieraffe) for the suggestion).
 
