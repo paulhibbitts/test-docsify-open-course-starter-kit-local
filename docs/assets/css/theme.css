@@ -85,6 +85,7 @@
   color: #333;
   content: '\2B29';
   font-weight: bold;
+  padding-right: 2px;
 }
 
 .markdown-section .alert {
@@ -116,6 +117,7 @@
   color: #333;
   content: '\2B29';
   font-weight: bold;
+  padding-right: 2px;
 }
 
 .markdown-section .button {
