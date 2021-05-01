@@ -86,8 +86,9 @@
 }
 
 .markdown-section blockquote ul li:before {
-  content: '\2713';
-  padding-right: 5px;
+  content: '\2B25';
+  color: #666666;
+  padding-right: 2px;
 }
 
 .markdown-section .reminders {
@@ -120,8 +121,9 @@
 }
 
 .markdown-section .reminders ul li:before {
-  content: '\2713';
-  padding-right: 5px;
+  content: '\2B25';
+  color: #666666;
+  padding-right: 2px;
 }
 
 .markdown-section .button {
