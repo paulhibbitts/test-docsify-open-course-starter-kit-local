@@ -5,9 +5,9 @@
 - [Week 4 (May 30 - Jun 5)](module-04)
 - **LMS Links**
 - [<i class="fas fa-calendar"></i> Calendar](https://canvas.sfu.ca/courses/44038/calendar)
-- [<i class="fas fa-edit"></i> Calendar](https://canvas.sfu.ca/courses/44038/assignments )
-- [<i class="fas fa-check-circle"></i> Calendar](https://canvas.sfu.ca/courses/44038/quizzes)
-- [<i class="fas fa-comments"></i> Calendar](https://canvas.sfu.ca/courses/44038/discussion_topics)
+- [<i class="fas fa-edit"></i> Assignments](https://canvas.sfu.ca/courses/44038/assignments )
+- [<i class="fas fa-check-circle"></i> Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
+- [<i class="fas fa-comments"></i> Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
 - [<i class="fas fa-list"></i> Syllabus](https://canvas.sfu.ca/courses/44038/assignments/syllabus)
 - **Project Documentation**
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/master/README.md)
