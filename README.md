@@ -1,3 +1,6 @@
+| 🛑 | **This is a testing-only repository. View the main project repository at https://github.com/hibbitts-design/docsify-open-course-starter-kit.** |
+|---|:--|
+
 # Docsify Open Course Starter Kit Local
 
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
