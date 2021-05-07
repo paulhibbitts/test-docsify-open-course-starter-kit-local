@@ -71,8 +71,8 @@
 <body>
     <div id="app"></div>
     <script>
-      // Replace the below URL with your own GitHub Repository URL
-      var yourRepo = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
+      // Enter the URL of your own GitHub Repository in between the two quotes below
+      var yourRepoURL = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
 
       function getParameterByName(name, url = window.location.href) {
         name = name.replace(/[\[\]]/g, '\\$&');
@@ -119,11 +119,11 @@
                     .replace('raw.githubusercontent.com', 'github.com')
                     .replace(/\/master/, '/blob/master')
                 } else {
-                  url = yourRepo +'/blob/main/docs/' + vm.route.file
+                  url = yourRepoURL +'/blob/main/docs/' + vm.route.file
                 }
                 var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
-                if (!(getParameterByName('hidegitlink') === 'true')) {
+                if ((!(getParameterByName('hidegitlink') === 'true'))  &&  (!!yourRepoURL)) {
                   return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
                 } else {
                   return html
