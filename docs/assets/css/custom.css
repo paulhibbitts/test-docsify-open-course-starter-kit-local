@@ -5,7 +5,6 @@ Put your custom CSS in this file.
 */
 
 /* CSS to better visually match Docsify pages within Canvas LMS (uncomment to use) */
-
 /*
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -19,7 +18,7 @@ body .markdown-section {
     text-decoration: none;
 }
 
-.markdown-section a:hover:not(.button)  {
+.markdown-section a:hover {
     text-decoration: underline;
 }
 */
