@@ -1,176 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Docsify Open Course Starter Kit</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Docsify Open Course Starter Kit">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="icon" href="assets/favicon/favicon.png">
+  <meta charset="UTF-8">
+  <title>Docsify Open Course Starter Kit</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Docsify Open Course Starter Kit">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="assets/favicon/favicon.png">
 
-    <!-- Stylesheets -->
-    <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css -->
-    <link rel="stylesheet" href="assets/vendor/themeable/themes/theme-simple.css" title="Simple">
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Stylesheets -->
+  <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css -->
+  <link rel="stylesheet" href="assets/vendor/themeable/themes/theme-simple.css" title="Simple">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
-    <!-- Alternate Stylesheets -->
-    <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css -->
-    <link rel="stylesheet alternate" href="assets/vendor/themeable/themes/theme-defaults.css" title="Defaults">
-    <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css -->
-    <link rel="stylesheet alternate" href="assets/vendor/themeable/themes/theme-simple-dark.css" title="Simple Dark">
+  <!-- Alternate Stylesheets -->
+  <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css -->
+  <link rel="stylesheet alternate" href="assets/vendor/themeable/themes/theme-defaults.css" title="Defaults">
+  <!-- https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css -->
+  <link rel="stylesheet alternate" href="assets/vendor/themeable/themes/theme-simple-dark.css" title="Simple Dark">
 
-    <style>
-      :root {
-        --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
-        --base-line-height: 1.4;
-        --base-font-size: 1.1rem;
+  <style>
+    :root {
+      --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+      --base-line-height: 1.4;
+      --base-font-size: 1.1rem;
 
-        --cover-max-width: 45em;
+      --cover-max-width: 45em;
 
-        --heading-h2-border-style: none;
-        --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
-        --heading-h2-margin: 1rem 0rem -1.5rem 0rem;
-        --heading-h3-margin: 1rem 0rem -.5rem 0rem;
-        --heading-h4-margin: 1rem 0rem -.5rem 0rem;
-        --heading-h5-margin: 1rem 0rem -.5rem 0rem;
-        --heading-h6-margin: 1rem 0rem 0rem 0rem;
-        --heading-h1-font-size: 1.60rem;
-        --heading-h2-font-size: 1.40rem;
-        --heading-h3-font-size: 1.20rem;
-        --heading-h4-font-size: 1.15rem;
-        --heading-h5-font-size: 1.1rem;
-        --heading-h6-font-size: 1rem;
-        --heading-h1-font-weight: 400;
-        --heading-h2-font-weight: 400;
-        --heading-h3-font-weight: 400;
-        --heading-h4-font-weight: 400;
-        --heading-h5-font-weight: 400;
-        --heading-h6-font-weight: 400;
+      --heading-h2-border-style: none;
+      --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
+      --heading-h2-margin: 1rem 0rem -1.5rem 0rem;
+      --heading-h3-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h4-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h5-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h6-margin: 1rem 0rem 0rem 0rem;
+      --heading-h1-font-size: 1.60rem;
+      --heading-h2-font-size: 1.40rem;
+      --heading-h3-font-size: 1.20rem;
+      --heading-h4-font-size: 1.15rem;
+      --heading-h5-font-size: 1.1rem;
+      --heading-h6-font-size: 1rem;
+      --heading-h1-font-weight: 400;
+      --heading-h2-font-weight: 400;
+      --heading-h3-font-weight: 400;
+      --heading-h4-font-weight: 400;
+      --heading-h5-font-weight: 400;
+      --heading-h6-font-weight: 400;
 
-        --navbar-root-margin: 0 0 0 1em;
+      --navbar-root-margin: 0 0 0 1em;
 
-        --sidebar-nav-link-font-weight--active: bold;
+      --sidebar-nav-link-font-weight--active: bold;
 
-        --link-color: #0B87DA;
-        --link-text-decoration: underline;
-        --link-text-decoration--hover: underline;
+      --link-color: #0B87DA;
+      --link-text-decoration: underline;
+      --link-text-decoration--hover: underline;
 
-        // Link colour to match visual styling of Canvas LMS
-        // --link-color: #008EE2;
+      // Link colour to match visual styling of Canvas LMS
+      // --link-color: #008EE2;
 
-        --pagination-title-color: #0B87DA;
+      --pagination-title-color: #0B87DA;
 
-      }
-    </style>
+    }
+  </style>
 
 </head>
 
 <body>
-    <div id="app"></div>
-    <script>
-      // Enter the URL of your own GitHub Repository in between the two quotes below
-      var yourRepoURL = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
+  <div id="app"></div>
+  <script>
+    // Enter the URL of your own GitHub Repository in between the two quotes below
+    var yourRepoURL = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
 
-      function getParameterByName(name, url = window.location.href) {
-        name = name.replace(/[\[\]]/g, '\\$&');
-        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
-        // Docsify
-        window.$docsify = {
-            // GENERAL SETTINGS
-            // -----------------------------------------------------------------
-            name       : 'Docsify Open Course Starter Kit',
-            homepage   : 'home.md',
-            loadSidebar: 'sidebar.md',
-            loadNavbar : !(getParameterByName('embedded') === 'true'),
-            externalLinkTarget: '_top',
-            executeScript: true,
+    function getParameterByName(name, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+    // Docsify
+    window.$docsify = {
+      // GENERAL SETTINGS
+      // -----------------------------------------------------------------
+      name: 'Docsify Open Course Starter Kit',
+      homepage: 'home.md',
+      loadSidebar: 'sidebar.md',
+      loadNavbar: !(getParameterByName('embedded') === 'true'),
+      externalLinkTarget: '_top',
+      executeScript: true,
 
-            // SIDEBAR NAVIGATION
-            // -----------------------------------------------------------------
-            auto2top   : true,
-            maxLevel   : 3,
-            subMaxLevel: 3,
-            hideSidebar: getParameterByName('embedded') === 'true',
+      // SIDEBAR NAVIGATION
+      // -----------------------------------------------------------------
+      auto2top: true,
+      maxLevel: 3,
+      subMaxLevel: 3,
+      hideSidebar: getParameterByName('embedded') === 'true',
 
-            // PLUGIN SETTINGS
-            // -----------------------------------------------------------------
-            pagination: {
-              previousText    : 'PREV',
-              nextText        : 'NEXT',
-              crossChapter    : false,
-              crossChapterText: true,
-            },
+      // PLUGIN SETTINGS
+      // -----------------------------------------------------------------
+      pagination: {
+        previousText: 'PREV',
+        nextText: 'NEXT',
+        crossChapter: false,
+        crossChapterText: true,
+      },
 
-          // CUSTOM PLUGINS
-          // -----------------------------------------------------------------
-          plugins: [
-            function (hook, vm) {
-              hook.beforeEach(function (html) {
-                if (/githubusercontent\.com/.test(vm.route.file)) {
-                  url = vm.route.file
-                    .replace('raw.githubusercontent.com', 'github.com')
-                    .replace(/\/master/, '/blob/master')
-                } else {
-                  url = yourRepoURL +'/blob/main/docs/' + vm.route.file
-                }
-                var editHtml = '[:memo: Edit this Page](' + url + ')\n'
-
-                if ((!(getParameterByName('hidegitlink') === 'true'))  &&  (!!yourRepoURL)) {
-                  return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
-                } else {
-                  return html
-                }
-
-              })
+      // CUSTOM PLUGINS
+      // -----------------------------------------------------------------
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = yourRepoURL + '/blob/main/docs/' + vm.route.file
             }
-          ]
+            var editHtml = '[:memo: Edit this Page](' + url + ')\n'
+
+            if ((!(getParameterByName('hidegitlink') === 'true')) && (!!yourRepoURL)) {
+              return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
+            } else {
+              return html
+            }
+
+          })
         }
-    </script>
+      ]
+    }
+  </script>
 
-    <!-- https://www.jsdelivr.com/package/npm/docsify/ -->
-    <script src="assets/vendor/docsify/docsify.js"></script>
+  <!-- https://www.jsdelivr.com/package/npm/docsify/ -->
+  <script src="assets/vendor/docsify/docsify.js"></script>
 
-    <!-- Customizable Theme -->
-    <!-- https://www.jsdelivr.com/package/npm/docsify-themeable/ -->
-    <script src="assets/vendor/themeable/docsify-themeable@0"></script>
+  <!-- Customizable Theme -->
+  <!-- https://www.jsdelivr.com/package/npm/docsify-themeable/ -->
+  <script src="assets/vendor/themeable/docsify-themeable@0"></script>
 
-    <!-- Emoji Plugin -->
-    <!-- https://unpkg.com/docsify/lib/plugins/emoji.min.js -->
-    <script src="assets/vendor/docsify/plugins/emoji.min.js"></script>
+  <!-- Emoji Plugin -->
+  <!-- https://unpkg.com/docsify/lib/plugins/emoji.min.js -->
+  <script src="assets/vendor/docsify/plugins/emoji.min.js"></script>
 
-    <!-- Font Awesome Plugin -->
-    <!-- https://unpkg.com/docsify-fontawesome/ -->
-    <script src="assets/vendor/docsify/plugins/docsify-fontawesome.min.js"></script>
+  <!-- Font Awesome Plugin -->
+  <!-- https://unpkg.com/docsify-fontawesome/ -->
+  <script src="assets/vendor/docsify/plugins/docsify-fontawesome.min.js"></script>
 
-    <!-- Font Awesome -->
-    <!-- https://unpkg.com/@fortawesome/fontawesome-free/ -->
-    <script defer src="assets/vendor/fontawesome/js/all.js"></script> <!--load all styles -->
+  <!-- Font Awesome -->
+  <!-- https://unpkg.com/@fortawesome/fontawesome-free/ -->
+  <script defer src="assets/vendor/fontawesome/js/all.js"></script>
+  <!--load all styles -->
 
-    <!-- Tabs Plugin -->
-    <!-- https://www.jsdelivr.com/package/npm/docsify-tabs/ -->
-    <script src="assets/vendor/docsify/plugins/docsify-tabs@1"></script>
+  <!-- Tabs Plugin -->
+  <!-- https://www.jsdelivr.com/package/npm/docsify-tabs/ -->
+  <script src="assets/vendor/docsify/plugins/docsify-tabs@1"></script>
 
-    <!-- Run External Scripts Plugin -->
-    <!-- https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js -->
-    <script src="assets/vendor/docsify/plugins/external-script.min.js"></script>
+  <!-- Run External Scripts Plugin -->
+  <!-- https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js -->
+  <script src="assets/vendor/docsify/plugins/external-script.min.js"></script>
 
-    <!-- Pagination Plugin -->
-    <script>
-      if (!(getParameterByName('embedded') === 'true')) {
-        // Load pagination script asynchronously
-        var sNew = document.createElement("script");
-        sNew.async = true;
-        sNew.src = "assets/vendor/docsify/plugins/docsify-pagination.min.js";
-        var s0 = document.getElementsByTagName('script')[0];
-        s0.parentNode.insertBefore(sNew, s0);
-      }
-    </script>
+  <!-- Pagination Plugin -->
+  <script>
+    if (!(getParameterByName('embedded') === 'true')) {
+      // Load pagination script asynchronously
+      var sNew = document.createElement("script");
+      sNew.async = true;
+      sNew.src = "assets/vendor/docsify/plugins/docsify-pagination.min.js";
+      var s0 = document.getElementsByTagName('script')[0];
+      s0.parentNode.insertBefore(sNew, s0);
+    }
+  </script>
 
 </body>
+
 </html>
