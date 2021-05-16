@@ -46,7 +46,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 [Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
-📝 Activating the “Edit this Page” Link
+📝 Activating the “Edit this Page” Link on Your Site
 ---   
 
 1. At the top-level of your GitHub Repository copy the URL
