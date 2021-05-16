@@ -46,7 +46,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 [Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
-📝 Activating the “Edit this Page” Link on Your Site
+📝 Activating the “Edit this Page” Link on Your Docsify Site
 ---   
 
 1. At the top-level of your GitHub Repository copy the URL
@@ -64,7 +64,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Course Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
 
-💻 Locally Editing your Docsify Site Pages
+💻 Locally Editing Your Docsify Site Pages
 ---  
 
 **Editing Your Docsify Site Pages on Your Desktop**
@@ -77,7 +77,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-🧩 Embedding Docsify Page Content into Other Systems
+🧩 Embedding your Docsify Page Content into Other Systems
 ---  
 
 ![ Docsify Open Course Page Embedded into the Canvas LMS](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-canvas.png)
