@@ -35,14 +35,6 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
 ![ Docsify Open Course Starter Kit - Install Page 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-4.png)
 
-**Editing Your Docsify Site Pages on GitHub**
-
-1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
-2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
-
-[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
-
 📝 Activating the “Edit this Page” Link
 ---   
 
@@ -61,15 +53,22 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
 
-[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Activating-the-Edit-this-Page-Link-Guide)
+📝 Editing Your Docsify Site Pages on GitHub
+---  
+
+1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
+2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+
+[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
 💻 Locally Editing your Docsify Site Pages
 ---  
 
 **Editing Your Docsify Site Pages on Your Desktop**
-1. Tap **Clone** on your repository page
+1. Tap **Code** on your repository (upper-right green button)
 2. Choose **Open Desktop** and follow the prompts, installing [GitHub Desktop](https://desktop.github.com/) if not already present
-3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. atom.io)
+3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. [atom.io](https://atom.io/))
 4. Use GitHub Desktop to push any changes to your repository.  
 
 [Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project).
