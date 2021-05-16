@@ -24,11 +24,16 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 **Installation and Deployment**
 
 1. Tap **Use this template** on the source repository (upper-right green button)
-2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
-3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
-4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
+![ Docsify Open Course Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/oc-install-1.png)
 
-[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Installation-and-Deployment-Guide)
+2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
+![ Docsify Open Course Starter Kit - Install Page 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/oc-install-2.png)
+
+3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
+![ Docsify Open Course Starter Kit - Install Page 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/oc-install-3.png)
+
+4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
+![ Docsify Open Course Starter Kit - Install Page 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/oc-install-4.png)
 
 **Editing Your Docsify Site Pages on GitHub**
 
