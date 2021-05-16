@@ -37,6 +37,15 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
 
+✏️ Editing Your Docsify Site Pages on GitHub
+---  
+
+1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
+2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+
+[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
+
 📝 Activating the “Edit this Page” Link
 ---   
 
@@ -54,15 +63,6 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Course Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
-
-✏️ Editing Your Docsify Site Pages on GitHub
----  
-
-1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
-2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
-
-[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
 💻 Locally Editing your Docsify Site Pages
 ---  
