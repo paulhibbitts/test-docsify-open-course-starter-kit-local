@@ -46,10 +46,20 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 📝 Activating the “Edit this Page” Link
 ---   
 
-1. At the top-level of your GitHub Repository, copy the URL and then tap on the `docs` folder
-2. Tap on the file `index.html` within the `docs` folder
+1. At the top-level of your GitHub Repository copy the URL
+![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-1.png)
+
+2. Tap on the **docs** folder
+![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-2.png)
+
+2. Tap on the **index.html** file
+![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-3.png)
+
 3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-4.png)
+
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
 
 [View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Activating-the-Edit-this-Page-Link-Guide)
 
