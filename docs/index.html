@@ -73,14 +73,35 @@
     // Enter the URL of your own GitHub Repository in between the two quotes below
     var yourRepoURL = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
 
-    function getParameterByName(name, url = window.location.href) {
+    // Customize the text for your Edit this Page on GitHub link between the two quotes below
+    var editThisPageLinkText = 'Edit this Page';
+
+    // Get value from GET-parameter in URL
+    // @param {string} name Parameter-name
+    // @returns {string|null} Parameter-value
+    function getURLParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
+          results = regex.exec(url);
       if (!results) return null;
       if (!results[2]) return '';
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
+
+    // Return given parameter if given key in URL
+    // @param {string} name Parameter-name
+    // @param {*} isTrue Return if found
+    // @param {*} isFalse Return if not found
+    // @returns {*} Given parameter
+    function returnByURLParameterByName(name, isTrue, isFalse, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return isFalse;
+      if (!results[2]) return isFalse;
+      return isTrue;
+    }
+
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
@@ -88,16 +109,15 @@
       name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
       loadSidebar: 'sidebar.md',
-      loadNavbar: !(getParameterByName('embedded') === 'true'),
-      externalLinkTarget: '_top',
-      executeScript: true,
+      loadNavbar: !(getURLParameterByName('embedded') === 'true'),
+      externalLinkTarget: (returnByURLParameterByName('embedded','_top','_blank')),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 3,
-      hideSidebar: getParameterByName('embedded') === 'true',
+      hideSidebar: getURLParameterByName('embedded') === 'true',
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -120,9 +140,9 @@
             } else {
               url = yourRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo: Edit this Page](' + url + ')\n'
+            var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
-            if ((!(getParameterByName('hidegitlink') === 'true')) && (!!yourRepoURL)) {
+            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!yourRepoURL)) {
               return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
             } else {
               return html
@@ -164,7 +184,7 @@
 
   <!-- Pagination Plugin -->
   <script>
-    if (!(getParameterByName('embedded') === 'true')) {
+    if (!(getURLParameterByName('embedded') === 'true')) {
       // Load pagination script asynchronously
       var sNew = document.createElement("script");
       sNew.async = true;
