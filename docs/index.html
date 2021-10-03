@@ -61,7 +61,6 @@
       // --link-color: #008EE2;
 
       --pagination-title-color: #0B87DA;
-
     }
   </style>
 
@@ -71,7 +70,7 @@
   <div id="app"></div>
   <script>
     // Enter the URL of your own GitHub Repository in between the two quotes below
-    var yourRepoURL = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local';
+    var gitLinkRepoURL = '';
 
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Edit this Page';
@@ -82,7 +81,7 @@
     function getURLParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-          results = regex.exec(url);
+        results = regex.exec(url);
       if (!results) return null;
       if (!results[2]) return '';
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
@@ -111,6 +110,7 @@
       loadSidebar: 'sidebar.md',
       loadNavbar: !(getURLParameterByName('embedded') === 'true'),
       externalLinkTarget: (returnByURLParameterByName('embedded','_top','_blank')),
+      executeScript: true,
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
@@ -138,11 +138,14 @@
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              url = yourRepoURL + '/blob/main/docs/' + vm.route.file
+              url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
             var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
-            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!yourRepoURL)) {
+            // Adjust GitHub displayable image URL format to also work in Docsify
+            html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
+
+            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
               return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
             } else {
               return html
@@ -188,7 +191,7 @@
       // Load pagination script asynchronously
       var sNew = document.createElement("script");
       sNew.async = true;
-      sNew.src = "assets/vendor/docsify/plugins/docsify-pagination.min.js";
+      sNew.src = "https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js";
       var s0 = document.getElementsByTagName('script')[0];
       s0.parentNode.insertBefore(sNew, s0);
     }
