@@ -28,6 +28,9 @@
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.css" />
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.css" />
 
+  <!-- ToC Plugin Stylesheet -->
+  <link rel="stylesheet" href="assets/css/toc.css">
+
   <style>
     :root {
       --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -188,17 +191,13 @@
   <script src="assets/vendor/docsify/plugins/external-script.min.js"></script>
 
   <!-- Pagination Plugin -->
+  <!-- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+  <script src="assets/vendor/docsify/plugins/docsify-pagination.min.js"></script>
+
   <script>
-    if (!(getURLParameterByName('embedded') === 'true')) {
-      // Load pagination script asynchronously
-      var sNew = document.createElement("script");
-      sNew.async = true;
-      sNew.src = "https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js";
-      var s0 = document.getElementsByTagName('script')[0];
-      s0.parentNode.insertBefore(sNew, s0);
+    if (getURLParameterByName('toc') === 'true' || getURLParameterByName('ToC') === 'true') {
+      document.write('<script src="assets/vendor/docsify/plugins/toc.js"><\/script>');
     }
   </script>
-
-</body>
 
 </html>
