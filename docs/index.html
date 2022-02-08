@@ -76,10 +76,10 @@
     var editThisPageLinkText = 'Edit this Page';
 
     // Get value from GET-parameter in URL
-    // @param {string} name Parameter-name
+    // @param {string|array} name Parameter-name
     // @param {*} isTrue Return if found
     // @param {*} isFalse Return if not found
-    // @returns {string|null} Parameter-value
+    // @returns {boolean|string} Parameter-value
     function getURLParameterByName(name, isTrue = null, isFalse = null, url = window.location.href) {
 
       let exists = false;
