@@ -90,7 +90,7 @@ var buildTOC = function(options) {
   var wrapper = ret;
   var lastLi = null;
   var selector = options.scope + ' ' + options.headings
-  var headers = getHeaders(selector).filter(h => h.id);
+  var headers = getHeaders(selector)
 
   headers.reduce(function(prev, curr, index) {
     var currentLevel = getLevel(curr.tagName);
