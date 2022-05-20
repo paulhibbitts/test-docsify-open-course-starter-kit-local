@@ -163,7 +163,7 @@
             // Adjust GitHub displayable image URL format to also work in Docsify
             html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
-            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
+            if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return html + '<br />' + '\n\n' + '<hr>' + '\n\n' + editHtml
             } else {
               return html
