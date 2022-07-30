@@ -397,4 +397,8 @@ body .docsify-pagination-container {
     color: #222222;
   }
 
+  .markdown-section a.button {
+    color: #222222;
+  }
+
 }
