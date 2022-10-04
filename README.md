@@ -130,7 +130,7 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 🌐 Using MAMP to View Docsify Sites Locally
 ---
 
-An alternative to installing Docsify locally (as described following this section) is to install MAMP to view your Docsify sites locally on your own computer.
+An alternative to installing Docsify locally (as described following this section) is to use MAMP to view your Docsify sites locally on your own computer.
 
 1. Download [MAMP](https://www.mamp.info/)
 2. Move your local Docsify site to the **htdocs** folder of MAMP
