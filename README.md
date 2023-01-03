@@ -100,6 +100,16 @@ https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resourc
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
 
+To optionally override the hiding of the navbar when displaying only page content, use the following:
+
+`?embedded=true&navbar=true`
+
+Example Docsify page displaying only page content:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+Example Docsify page displaying only page content with the navbar still displayed:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true  
+
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
 `?embedded=true&toc=true`

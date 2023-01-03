@@ -117,6 +117,9 @@
     // Set standalone to true to permanently hide the Sidebar and Navbar
     var standalone = false;
 
+    // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
+    var navbar = false;
+
     // Set ToC to true to permanently show page Table of Contents (Sidebar must also be hidden)
     var ToC = false;
 
@@ -166,7 +169,7 @@
       homepage: 'home.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       // Set loadNavbar to true to always display Navbar, regardless of standalone setting
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       executeScript: true,
 
@@ -321,7 +324,7 @@
 
   <!-- Tabs Plugin -->
   <!-- https://www.jsdelivr.com/package/npm/docsify-tabs/ -->
-  <script src="assets/vendor/docsify/plugins/docsify-tabs.js"></script>
+  <script src="assets/vendor/docsify/plugins/docsify-tabs.min.js"></script>
 
   <!-- Run External Scripts Plugin -->
   <!-- https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js -->
