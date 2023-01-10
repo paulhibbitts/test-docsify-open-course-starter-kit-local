@@ -227,8 +227,16 @@
                 URLparms = URLparms + `&hidegitlink=true`;
               }
 
+              if (getURLParameterByName('navbar') || navbar) {
+                URLparms = URLparms + `&navbar=true`;
+              }
+
               if (getURLParameterByName('toc') || ToC) {
                 URLparms = URLparms + `&toc=true`;
+              }
+
+              if (getURLParameterByName('footer') || footer) {
+                URLparms = URLparms + `&footer=true`;
               }
 
               var htmlElement = document.createElement('div');
