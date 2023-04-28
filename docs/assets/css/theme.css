@@ -413,6 +413,30 @@
   margin: 1em 0;
 }
 
+.markdown-section h1 {
+  line-height: 1.75rem;
+}
+
+.markdown-section h2 {
+  line-height: 1.55rem;
+}
+
+.markdown-section .h3 {
+  line-height: 1.35rem;
+}
+
+.markdown-section h4 {
+  line-height: 1.3rem;
+}
+
+.markdown-section h5 {
+  line-height: 1.25rem;
+}
+
+.markdown-section h6 {
+  line-height: 1.15rem;
+}
+
 .markdown-section .alert h1, .markdown-section blockquote h1 {
   font-size: 1.5rem;
   line-height: 1.5rem;
