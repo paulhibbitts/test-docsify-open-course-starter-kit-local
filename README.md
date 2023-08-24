@@ -10,9 +10,9 @@
 </a>
 > This is a starter kit to quickly create a Markdown-based open course site with the site generator [Docsify](https://docsify.js.org). To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@mandrasch](https://github.com/mandrasch) for the suggestion).
 
-📸 Docsify Open Course Screenshot
+📸 Docsify Open Course Screenshots
 ---
-![ Docsify Open Course Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_kokhsfk1.png)
+![ Docsify Open Course Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_kud98jh6.png)
 _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.github.io/demo-docsify-open-course-starter-kit/](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/)_
 
 🚀 GitHub Pages Quickstart
@@ -23,7 +23,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 **Installation and Deployment**
 
-1. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
+1. Tap **Use this template** on the source repository (upper-right green button)  and then choose **Create a new repository**
 ![ Docsify Open Course Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-1.png)
 
 2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
@@ -66,7 +66,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 ![ Docsify Open Course Starter Kit - “Edit this Page” Link 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-4.png)
 
-4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+4. Find the line `var gitLinkRepoURL = '';` and enter the URL of your own GitHub Repository between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Course Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
 
 💻 Locally Editing Your Docsify Site Pages
@@ -140,6 +140,23 @@ https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resourc
 Example Docsify page with footer shown:  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&footer=true  
 
+🖼 Presenting your Docsify Page Content as Standalone Webpages
+---  
+
+In addition to using URL parameters when embedding Docsify page content into other systems, it is possible to permanently display all pages as standalone, and to also always display a page Table of Contents.
+
+**To Display all Pages as Standalone**
+1. Open the `index.html` file for editing.
+2. Locate the line `var standalone = false;` and change it to `var standalone = true;`.
+3. Save the `index.html` file and reload site.
+
+**To Display Page Table of Contents**
+1. Open the `index.html` file for editing.
+2. Locate the line `var ToC = false;` and change it to `var showToC = true;`.
+3. Save the `index.html` file and reload site.
+
+Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
+
 🛠 Using an LMS to Host a Docsify Open Course Site
 ---
 
@@ -161,9 +178,171 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 [Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
 [Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
 
+**Docsify Themable**  
+[Docsify Themeable Documentation](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)  
+[Docsify Themeable GitHub](https://github.com/jhildenbiddle/docsify-themeable)  
+
 **Markdown**  
-[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
 [Markdown Guide](https://www.markdownguide.org/)  
+
+🧰 Useful Markdown CSS Classes
+---
+
+`accordion`
+
+```html
+<div class="accordion">
+
+<details>
+  <summary>Topic One</summary>
+  
+  Topic one details here.
+  
+</details>
+
+<details>
+  <summary>Topic Two</summary>
+  
+  Topic two details here.
+  
+</details>
+
+</div>
+```
+
+`badge`  
+
+```html
+<span class='badge'> Tue Jun 12th 11:59pm PDT</span>
+```
+
+```html
+<span class='badge'> [Tue May 16 2:30pm PT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CMPT-363+Blackboard+Mini-lectures+and+Activities&iso=20220516T1430&p1=256&ah=1&am=50)</span>  
+```
+
+`banner-image` (cropped to height of 250px on large screens, 125px on small screens)  
+
+```markdown
+![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image')
+```
+
+`banner-tall-image` (cropped to height of 350px on large screens, 175px on small screens)  
+
+```markdown
+![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-tall-image')
+```
+
+`button`  
+
+```markdown
+[Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button')
+```
+
+`embedly-card` (for linked article previews, embedded slides/videos, etc.)  
+
+```markdown
+<a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://blog.prototypr.io/defining-usability-e7bf42e8abd0">Defining usability</a>
+```
+
+`header-image-fade` (suggested width of 1200px to 2000px)  
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=header-image-fade')
+```
+
+`header-image-full-width` (suggested size of 1200px to 2000px width and 400px to 600px height, and display of Table of Contents is not available)  
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=header-image')
+```
+
+`image-75` (scale image to 75%)
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-75')
+```
+
+`image-50` (scale image to 50%)
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-50')
+```
+
+`image-25` (scale image to 25%)
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-25')
+```
+
+`image-75-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-75-border')
+```
+
+`image-50-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-50-border')
+```
+
+`image-25-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-25-border')
+```
+
+`image-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-border')
+```
+
+`image-border-rounded`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-border-rounded')
+```
+
+`navpill`
+
+```markdown
+[GitHub](https://github.com/hibbitts-design/docsify-this ':class=navpill')
+```
+
+```html
+<a class="navpill" href="https://github.com" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+```
+
+`row` & `column`  
+
+```html
+<div class="row">
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+</div>
+```
+
+`video-container-4by3`  
+
+```html
+<div class="video-container-4by3"><div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
+```
+
+`video-container-16by9`  
+Automatically added to all iFrames with the source domains 'youtube.com' or 'docs.google.com'.  
+```html
+<div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
+```
 
 🌐 Using MAMP to View Docsify Sites Locally
 ---
@@ -182,4 +361,4 @@ _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvar
 
 🙇‍Credits and Special Thanks
 ---
-[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)  
+[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)   
