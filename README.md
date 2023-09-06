@@ -159,7 +159,7 @@ In addition to using URL parameters when embedding Docsify page content into oth
 
 Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
 
-❝❞ Setting the Displayed Name of your Docsify Site 
+❛❜ Setting the Displayed Name of your Docsify Site 
 ---  
 
 1. Open the `index.html` file for editing.
