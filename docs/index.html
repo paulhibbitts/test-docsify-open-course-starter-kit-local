@@ -9,13 +9,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
-  <!-- Themeable Simple theme -->
-  <link rel="stylesheet" href="assets/vendor/themeable/themes/theme-simple.css">
+  <!-- Docsify v5 Core Theme (required) -->
+  <link rel="stylesheet" href="assets/vendor/docsify/themes/core.min.css">
 
-  <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)" href="assets/vendor/themeable/themes/theme-simple.css"> -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-    href="assets/vendor/themeable/themes/theme-simple-dark.css"> -->
+  <!-- Docsify v5 Core Dark / Dark Mode Only (add-on) -->
+  <link rel="stylesheet" href="assets/vendor/docsify/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" />
+  
+  <!-- Sidebar Chevrons Left (add-on) -->
+  <!-- <link rel="stylesheet" href="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/themes/addons/sidebar-chevrons-left.min.css" /> -->
+  <!-- Sidebar Chevrons Right (add-on) -->
+  <link rel="stylesheet" href="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/themes/addons/sidebar-chevrons-right.min.css" />
+
+  <!-- Sidebar Group Underline (add-on) -->
+  <!-- <link rel="stylesheet" href="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/themes/addons/sidebar-group-underline.min.css" /> -->
+  <!-- Sidebar Group Box (add-on) -->
+  <link rel="stylesheet" href="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/themes/addons/sidebar-group-box.min.css" />
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -28,67 +36,27 @@
 
   <style>
     :root {
-      --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-      --base-line-height: 1.4;
-      --base-font-size: 1.125rem;
 
-      --cover-max-width: 45em;
+      --font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; /*DOCSIFY v5*/
 
-      --heading-h2-border-style: none;
-      --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
-      --heading-h2-margin: 1rem 0rem -1.5rem 0rem;
-      --heading-h3-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h4-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h5-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h6-margin: 1rem 0rem 0rem 0rem;
-      --heading-h1-font-size: 1.60rem;
-      --heading-h2-font-size: 1.40rem;
-      --heading-h3-font-size: 1.20rem;
-      --heading-h4-font-size: 1.15rem;
-      --heading-h5-font-size: 1.1rem;
-      --heading-h6-font-size: 1rem;
-      --heading-h1-font-weight: 400;
-      --heading-h2-font-weight: 400;
-      --heading-h3-font-weight: 400;
-      --heading-h4-font-weight: 400;
-      --heading-h5-font-weight: 400;
-      --heading-h6-font-weight: 400;
+      --line-height: 1.4; /*DOCSIFY v5*/
+      --font-size: 18px; /*DOCSIFY v5*/
 
+      --max-width: 960px; /*DOCSIFY v5*/
+
+      --heading-font-weight: 400;
+
+      --theme-color: #0374B5;
       --link-color: #0374B5;
-      --link-text-decoration: underline;
-      --link-text-decoration--hover: underline;
+      --link-color-hover: var(--link-color);
+      --link-underline-thickness: 1px;
+      --link-underline-thickness-hover: var(--link-underline-thickness);
 
-      --sidebar-name-color: #0374B5;
-      --sidebar-nav-link-color--active: #0374B5;
-      --sidebar-nav-link-border-color--active: #0374B5;
-      --sidebar-nav-link-font-weight--active: bold;
-
-      --sidebar-nav-pagelink-background--active:
-          no-repeat 0px center / 5px 6px
-          linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
-          no-repeat 5px center / 5px 6px
-          linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
-      --sidebar-nav-pagelink-background--collapse:
-          no-repeat 2px calc(50% - 2.5px) / 6px 5px
-          linear-gradient(45deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px),
-          no-repeat 2px calc(50% + 2.5px) / 6px 5px
-          linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px);
-      --sidebar-nav-pagelink-background--loaded:
-          no-repeat 0px center / 5px 6px
-          linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
-          no-repeat 5px center / 5px 6px
-          linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
-
-      --navbar-root-margin: 0 0 0 .8em;
-      --navbar-root-color--active: #0374B5;
-
-      --blockquote-border-color: #0374B5;
-
-      --pagination-title-color: #0374B5;
+      --blockquote-bg: var(--color-mono-1); /*DOCSIFY v5*/
       
-      --docsifytabs-tab-color: var(--base-color);
-    }
+      --docsifytabs-tab-color: var(--color-mono-max);
 
+    }
   </style>
 
 </head>
@@ -171,6 +139,8 @@
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
+
+      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -355,24 +325,21 @@
     }
   </script>
 
-  <!-- https://www.jsdelivr.com/package/npm/docsify/ -->
-  <script src="assets/vendor/docsify/docsify.min.js"></script>
+  <!-- Docsify v5 release -->
+  <script src="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/docsify.min.js"></script>
+  <!-- <script src="assets/vendor/docsify/docsify.min.js"></script> -->
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
-    if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
-      var editCSS = document.createElement('style')
-      editCSS.innerHTML = ".markdown-section {padding: 1rem 14px;}";
-      document.body.appendChild(editCSS);
+    if ((getURLParameterByName(['standalone', 'embedded']) || standalone)) {
+      const root_theme = document.querySelector(':root');
+      root_theme.style.setProperty('--_markdown-margin-inline', '10px');
     }
   </script>
 
-  <!-- Customizable Theme -->
-  <!-- https://www.jsdelivr.com/package/npm/docsify-themeable/ -->
-  <script src="assets/vendor/themeable/docsify-themeable.min.js"></script>
-
   <!-- Search Box Plugin -->
-  <!--  <script src="assets/vendor/docsify/plugins/custom/search.min.js"></script> -->
+  <!-- <script src="assets/js/search.min.js"></script> -->
+  <!-- <script src="https://docsify-preview-jeqkk30xe-docsifyjs.vercel.app/dist/plugins/search.min.js"></script> -->
 
   <!-- Font Awesome Plugin -->
   <!-- https://unpkg.com/docsify-fontawesome/ -->
