@@ -103,13 +103,6 @@
   padding-top: 1.0rem; /* DOCSIFY v5 */
 }
 
-.sidebar-nav a, .sidebar nav a {
-  overflow: visible;
-  white-space: break-spaces;
-  margin: .6em 0em .0em 0em; /* DOCSIFY v5 */
-  line-height: 1.4em; /* DOCSIFY v5 */
-}
-
 .pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
   opacity: 1 !important;
   transition: all .2s;
@@ -558,20 +551,20 @@
 }
 
 .markdown-section h2 {
-  font-size: 1.45rem; /* DOCSIFY v5 */
+  font-size: 1.50rem; /* DOCSIFY v5 */
   line-height: 1.55rem;
   margin: 1rem 0rem -1.2rem 0rem; /* DOCSIFY v5 */
   border-style: none; /* DOCSIFY v5 */
 }
 
 .markdown-section h3 {
-  font-size: 1.25rem; /* DOCSIFY v5 */
+  font-size: 1.35rem; /* DOCSIFY v5 */
   line-height: 1.35rem;
   margin: 1rem 0rem -.5rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section h4 {
-  font-size: 1.2rem; /* DOCSIFY v5 */
+  font-size: 1.25rem; /* DOCSIFY v5 */
   line-height: 1.3rem;
   margin: 1rem 0rem -.5rem 0rem; /* DOCSIFY v5 */
 }
@@ -666,7 +659,7 @@ body .docsify-pagination-container {
   }
 
   .markdown-section h4 {
-    font-size: 1.15rem;
+    font-size: 1.17rem;
     line-height: 1.2rem;
   }
 
@@ -713,7 +706,7 @@ body .docsify-pagination-container {
 
 /* Dark mode custom colours for use with Core Dark Theme (uncomment to use) */
 @media (prefers-color-scheme: dark) {
-
+/*
   :root {
 
     --theme-color: #0685D7!important;
@@ -721,3 +714,4 @@ body .docsify-pagination-container {
 
   }
 }
+*/
