@@ -563,6 +563,7 @@
 .markdown-section h1 {
   font-size: 1.65rem; /* DOCSIFY v5 */
   line-height: 1.9rem;
+  margin-top: .5rem;
   margin-bottom: .2rem;
   padding-bottom: 0;
 }
@@ -570,6 +571,7 @@
 .markdown-section h2 {
   font-size: 1.50rem; /* DOCSIFY v5 */
   line-height: 1.75rem;
+  margin-top: .5rem;
   margin-bottom: .2rem;
   padding-bottom: 0;
   border-style: none; /* DOCSIFY v5 */
@@ -578,6 +580,7 @@
 .markdown-section h3 {
   font-size: 1.35rem; /* DOCSIFY v5 */
   line-height: 1.6rem;
+  margin-top: .5rem;
   margin-bottom: .2rem;
   padding-bottom: 0;
 }
@@ -585,6 +588,7 @@
 .markdown-section h4 {
   font-size: 1.25rem; /* DOCSIFY v5 */
   line-height: 1.4rem;
+  margin-top: .5rem;
   margin-bottom: .2rem;
   padding-bottom: 0;
 }
@@ -592,6 +596,7 @@
 .markdown-section h5 {
   font-size: 1.15rem; /* DOCSIFY v5 */
   line-height: 1.3rem;
+  margin-top: .4rem;
   margin-bottom: .1rem;
   padding-bottom: 0;
 }
@@ -599,6 +604,7 @@
 .markdown-section h6 {
   font-size: 1.1rem; /* DOCSIFY v5 */
   line-height: 1.3rem;
+  margin-top: .4rem;
   margin-bottom: .1rem;
   padding-bottom: 0;
 }
