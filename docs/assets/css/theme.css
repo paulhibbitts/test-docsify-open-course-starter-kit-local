@@ -148,16 +148,18 @@
 }
 
 .markdown-section .button {
-  cursor: pointer;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
-  height: auto;
-  display: inline-block;
-  padding: 10px;
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
-  line-height: 1.2rem;
-  background-color: var(--link-color);
-  text-decoration: none;
-  border-radius: .25rem;
+  cursor: pointer!important;
+  color: var(--color-mono-min)!important; /* DOCSIFY v5 */
+  height: auto!important;
+  display: inline-block!important;
+  padding: 10px!important;
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif!important;
+  line-height: 1.2rem!important;
+  background-color: var(--link-color)!important;
+  text-decoration: none!important;
+  border: 1px solid var(--link-color)!important;
+  border-radius: .25rem!important;
+  outline-color: unset!important;
 }
 
 .markdown-section a.button {
