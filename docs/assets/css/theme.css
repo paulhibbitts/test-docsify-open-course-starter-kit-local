@@ -159,13 +159,14 @@
   text-decoration: none!important;
   border: 1px solid var(--link-color)!important;
   border-radius: .25rem!important;
-  outline-color: unset!important;
+  outline:transparent!important;
 }
 
 .markdown-section a.button {
   cursor: pointer;
   color: var(--color-mono-min); /* DOCSIFY v5 */
   text-decoration: none !important;
+  outline:transparent!important;
 }
 
 .markdown-section .button-secondary {
