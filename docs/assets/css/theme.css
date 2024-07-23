@@ -108,7 +108,7 @@
   transition: all .2s;
 }
 
-.markdown-section :is(h2, h3, h4, h5, h6) {
+.markdown-section :is(h2,) {
   display: flex; /* for Docsify-This and Starter Kits content compatibility with Docsify v5 */
   gap: 0.15em;
 }
