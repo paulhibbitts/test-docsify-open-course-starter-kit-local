@@ -147,7 +147,7 @@
   margin-left: -18px;
 }
 
-.markdown-section .button {
+.markdown-section .button[class="button"] {
   cursor: pointer!important;
   color: var(--color-mono-min); /* DOCSIFY v5 */
   height: auto!important;
@@ -162,7 +162,7 @@
   outline:transparent!important;
 }
 
-.markdown-section a.button {
+.markdown-section .button[class="button"] {
   cursor: pointer;
   color: var(--color-mono-min); /* DOCSIFY v5 */
   text-decoration: none !important;
@@ -329,6 +329,10 @@
 .markdown-section summary h3 {
   margin: 0;
   display: inline-block;
+}
+
+.markdown-section pre {
+  overflow: auto;
 }
 
 .markdown-section code {
