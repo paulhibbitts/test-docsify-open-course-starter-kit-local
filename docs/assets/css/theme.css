@@ -108,6 +108,11 @@
   transition: all .2s;
 }
 
+.markdown-section :is(h2,) {
+  display: flex; /* for Docsify-This and Starter Kits content compatibility with Docsify v5 */
+  gap: 0.15em;
+}
+
 .markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
   margin: .75em 0em .5em 0em!important; /* DOCSIFY v5 */
 }
