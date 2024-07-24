@@ -108,8 +108,8 @@
   transition: all .2s;
 }
 
-.markdown-section :is(h2,) {
-  display: flex; /* for Docsify-This and Starter Kits content compatibility with Docsify v5 */
+.markdown-section:has(.fas) h2, .markdown-section:has(.fab) h2 {
+  display: flex; /* for Docsify-This and Starter Kits Font Awesome plugin content compatibility with Docsify v5 */
   gap: 0.15em;
 }
 
