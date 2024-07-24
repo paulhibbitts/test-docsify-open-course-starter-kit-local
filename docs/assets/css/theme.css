@@ -108,8 +108,8 @@
   transition: all .2s;
 }
 
-.markdown-section:has(.fas) h2, .markdown-section:has(.fab) h2 {
-  display: flex; /* for Docsify-This and Starter Kits Font Awesome plugin content compatibility with Docsify v5 */
+.markdown-section:has(.fas) h1, .markdown-section:has(.fab) h1, .markdown-section:has(.fas) h2, .markdown-section:has(.fab) h2, .markdown-section:has(.fas) h3, .markdown-section:has(.fab) h3, .markdown-section:has(.fas) h4, .markdown-section:has(.fab) h4, .markdown-section:has(.fas) h5, .markdown-section:has(.fab) h5, .markdown-section:has(.fas) h6, .markdown-section:has(.fab) h6 {
+  display: flex; /* for Docsify-This and Starter Kits Font Awesome plugin Header content compatibility with Docsify v5 */
   gap: 0.15em;
 }
 
