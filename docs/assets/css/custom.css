@@ -49,6 +49,15 @@ body .markdown-section {
 }
 */
 
+/* CSS to better visually match Docsify pages within Moodle LMS (uncomment to use) */
+/*
+body .markdown-section {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+*/
+
 /* Link colors to match visual styling of Moodle LMS (uncomment to use) */
 /*
 :root {
