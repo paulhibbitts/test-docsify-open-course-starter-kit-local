@@ -54,11 +54,13 @@
        url('../fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
+/*
 body {
-  -webkit-font-smoothing: antialiased; /* For WebKit browsers */
-  -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
-  font-smooth: always; /* Standard property, limited support */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
 }
+*/
 
 .app-nav:not(:empty)~main .markdown-section {
   padding-top: 1.0rem; /* DOCSIFY v5 */
