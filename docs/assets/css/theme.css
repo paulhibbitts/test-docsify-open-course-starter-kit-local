@@ -56,14 +56,6 @@ body {
 }
 */
 
-/*
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smooth: always;
-}
-*/
-
 .app-nav:not(:empty)~main .markdown-section {
   padding-top: 1.0rem; /* DOCSIFY v5 */
 }
@@ -118,7 +110,7 @@ body {
   height: auto!important;
   display: inline-block!important;
   padding: 10px!important;
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif!important;
+  font-family: system-ui, sans-serif!important;
   line-height: 1.2rem!important;
   background-color: var(--link-color);
   text-decoration: none!important;
@@ -127,7 +119,7 @@ body {
   outline:transparent!important;
 }
 
-.markdown-section .button[class="button"] {
+.markdown-section a.button[class="button"] {
   cursor: pointer;
   color: var(--color-mono-min); /* DOCSIFY v5 */
   text-decoration: none !important;
@@ -140,7 +132,7 @@ body {
   height: auto;
   display: inline-block;
   padding: 10px;
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
@@ -160,7 +152,7 @@ body {
   height: auto;
   display: inline-block;
   padding: 10px min(20px, 5%) 10px min(20px, 5%);
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.2rem;
   background-color: var(--link-color);
   text-decoration: none;
@@ -179,7 +171,7 @@ body {
   height: auto;
   display: inline-block;
   padding: 10px min(20px, 5%) 10px min(20px, 5%);
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
@@ -206,7 +198,7 @@ body {
   font-size: .8rem;
   line-height: .9rem;
   background-color: var(--color-mono-min); /* DOCSIFY v5 */
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: system-ui, sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
@@ -224,7 +216,7 @@ body {
 
   display: inline-block;
   padding: .25em .4em .25em .4em;
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
@@ -350,7 +342,7 @@ body {
 
 .markdown-section .responsive {
   max-width: 100%;
-  height: auto
+  height: auto;
 }
 
 .markdown-section .banner-image {
