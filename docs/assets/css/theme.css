@@ -434,12 +434,12 @@ body {
 }
 
 .markdown-section .image-50 {
-  width: 75%;
+  width: 50%;
   height: auto;
 }
 
 .markdown-section .image-25 {
-  width: 75%;
+  width: 25%;
   height: auto;
 }
 
@@ -450,13 +450,13 @@ body {
 }
 
 .markdown-section .image-50-border {
-  width: 75%;
+  width: 50%;
   height: auto;
   border: 1px solid #dfdfdf;
 }
 
 .markdown-section .image-25-border {
-  width: 75%;
+  width: 25%;
   height: auto;
   border: 1px solid #dfdfdf;
 }
