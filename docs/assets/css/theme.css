@@ -48,14 +48,12 @@
   src: url('../fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/*
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-*/
 
 .app-nav:not(:empty) ~ main .markdown-section {
   padding-top: 1rem;
