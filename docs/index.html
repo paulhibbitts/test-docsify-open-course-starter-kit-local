@@ -34,28 +34,20 @@
 
   <style>
     :root {
-
       --font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif; */
-
       --line-height: 1.4;
       --font-size: 18px;
       --font-weight: 400;
-
       --content-max-width: 960px;
-
       --heading-font-weight: 400;
-
       --theme-color: #0374B5;
       --link-color: #0374B5;
       --link-color-hover: var(--link-color);
       --link-underline-thickness: 1px;
       --link-underline-thickness-hover: var(--link-underline-thickness);
-
       --blockquote-color: var(--color-text);
       --blockquote-bg: var(--color-mono-1);
-
       --docsifytabs-tab-color: var(--color-mono-max);
-
     }
   </style>
 
@@ -75,7 +67,7 @@
 
     // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
     var ToC = false;
-    
+
     // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
     var navbar = false;
 
@@ -127,7 +119,7 @@
       name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       executeScript: true,
       loadFooter: (getURLParameterByName('footer') || footer || false),
@@ -154,7 +146,7 @@
         namespace: 'docsify-this',
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
       },
-      
+
       pagination: {
         previousText: 'PREV',
         nextText: 'NEXT',
@@ -171,9 +163,9 @@
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
-        function (hook, vm) {
+        function(hook, vm) {
 
-          hook.afterEach(function (html, next) {
+          hook.afterEach(function(html, next) {
             // Invoked each time after the Markdown file is parsed.
             // beforeEach and afterEach support asynchronous。
             // ...
@@ -229,7 +221,7 @@
                 }
               }
             }
-              
+
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
@@ -260,7 +252,7 @@
 
           });
 
-          hook.beforeEach(function (html) {
+          hook.beforeEach(function(html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
@@ -279,15 +271,15 @@
           });
 
           // Invoked on each page load after new HTML has been appended to the DOM
-          hook.doneEach(function () {
+          hook.doneEach(function() {
             var hasEmbedly = document.getElementsByClassName('embedly-card');
             if (hasEmbedly.length > 0) {
-                // console.log("Load Embedly");
-                // elements with class "embedly-card" exist
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = 'https://cdn.embedly.com/widgets/platform.js';    
-                document.head.appendChild(script);
+              // console.log("Load Embedly");
+              // elements with class "embedly-card" exist
+              var script = document.createElement('script');
+              script.type = 'text/javascript';
+              script.src = 'https://cdn.embedly.com/widgets/platform.js';
+              document.head.appendChild(script);
             }
 
             // Remove optional ToC area if full width header image is present
@@ -351,7 +343,7 @@
   <!-- Search Box Plugin -->
   <script src="https://docsify-preview-orhet61nc-docsifyjs.vercel.app/dist/plugins/search.min.js"></script>
   <!-- <script src="assets/js/search.min.js"></script> -->
-  
+
   <!-- Font Awesome Plugin -->
   <!-- https://unpkg.com/docsify-fontawesome/ -->
   <script src="assets/vendor/docsify/plugins/custom/docsify-fontawesome.min.js"></script>
@@ -392,7 +384,7 @@
   <script src="assets/vendor/prismjs/prism-php.min.js"></script>
   <script src="assets/vendor/prismjs/prism-python.min.js"></script>
   <script src="assets/vendor/prismjs/prism-swift.min.js"></script>
-  
+
 </body>
 
 </html>
