@@ -56,74 +56,94 @@ body {
 }
 */
 
-.app-nav:not(:empty)~main .markdown-section {
-  padding-top: 1.0rem; /* DOCSIFY v5 */
+.app-nav:not(:empty) ~ main .markdown-section {
+  padding-top: 1rem;
 }
 
-.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
+.pagination-item:not(:last-child) a .pagination-item-label,
+.pagination-item:not(:last-child) a .pagination-item-subtitle,
+.pagination-item:not(:last-child) a .pagination-item-title {
   opacity: 1 !important;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
-.markdown-section:has(.fas) h1, .markdown-section:has(.fab) h1, .markdown-section:has(.fas) h2, .markdown-section:has(.fab) h2, .markdown-section:has(.fas) h3, .markdown-section:has(.fab) h3, .markdown-section:has(.fas) h4, .markdown-section:has(.fab) h4, .markdown-section:has(.fas) h5, .markdown-section:has(.fab) h5, .markdown-section:has(.fas) h6, .markdown-section:has(.fab) h6 {
-  display: flex; /* for Docsify-This and Starter Kits Font Awesome plugin Header content compatibility with Docsify v5 */
+.markdown-section:has(.fas) h1,
+.markdown-section:has(.fab) h1,
+.markdown-section:has(.fas) h2,
+.markdown-section:has(.fab) h2,
+.markdown-section:has(.fas) h3,
+.markdown-section:has(.fab) h3,
+.markdown-section:has(.fas) h4,
+.markdown-section:has(.fab) h4,
+.markdown-section:has(.fas) h5,
+.markdown-section:has(.fab) h5,
+.markdown-section:has(.fas) h6,
+.markdown-section:has(.fab) h6 {
+  display: flex;
+  /* for Docsify-This and Starter Kits Font Awesome plugin Header content compatibility with Docsify v5 */
   gap: 0.15em;
 }
 
-.markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
-  margin: .75em 0em .5em 0em!important; /* DOCSIFY v5 */
+.markdown-section figure,
+.markdown-section p,
+.markdown-section ol,
+.markdown-section ul {
+  margin: 0.75em 0em 0.5em 0em !important;
 }
 
 .markdown-section {
-  margin-top: 1.4rem; /* DOCSIFY v5 */
-  /* padding: 1rem 40px; DOCSIFY v5 */
+  margin-top: 1.4rem;
 }
 
-.markdown-section .alert, .markdown-section blockquote {
-  overflow: visible; /* DOCSIFY v5 */
-  margin: 1em 0; /* DOCSIFY v5 */
-  padding: 1em; /* DOCSIFY v5 */
+.markdown-section .alert,
+.markdown-section blockquote {
+  overflow: visible;
+  margin: 1em 0;
+  padding: 1em;
 }
 
 .markdown-section ul {
   list-style: square outside none;
 }
 
-.markdown-section .alert ul, .markdown-section blockquote ul {
+.markdown-section .alert ul,
+.markdown-section blockquote ul {
   list-style: none;
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
-.markdown-section .alert ul li, .markdown-section blockquote ul li {
+.markdown-section .alert ul li,
+.markdown-section blockquote ul li {
   margin: 2px 0;
 }
 
-.markdown-section .alert ul li:before, .markdown-section blockquote ul li:before {
+.markdown-section .alert ul li:before,
+.markdown-section blockquote ul li:before {
   position: absolute;
-  content: '\2B29';
+  content: "\2B29";
   margin-left: -18px;
 }
 
 .markdown-section .button[class="button"] {
-  cursor: pointer!important;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
-  height: auto!important;
-  display: inline-block!important;
-  padding: 10px!important;
-  font-family: system-ui, sans-serif!important;
-  line-height: 1.2rem!important;
+  cursor: pointer !important;
+  color: var(--color-mono-min);
+  height: auto !important;
+  display: inline-block !important;
+  padding: 10px !important;
+  font-family: system-ui, sans-serif !important;
+  line-height: 1.2rem !important;
   background-color: var(--link-color);
-  text-decoration: none!important;
+  text-decoration: none !important;
   border: 1px solid var(--link-color);
-  border-radius: .25rem!important;
-  outline:transparent!important;
+  border-radius: 0.25rem !important;
+  outline: transparent !important;
 }
 
 .markdown-section a.button[class="button"] {
   cursor: pointer;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
+  color: var(--color-mono-min);
   text-decoration: none !important;
-  outline:transparent!important;
+  outline: transparent !important;
 }
 
 .markdown-section .button-secondary {
@@ -136,8 +156,8 @@ body {
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
-  border: 1px solid var(--link-color)!important;
-  border-radius: .25rem;
+  border: 1px solid var(--link-color) !important;
+  border-radius: 0.25rem;
 }
 
 .markdown-section a.button-secondary {
@@ -148,7 +168,7 @@ body {
 
 .markdown-section .button-rounded {
   cursor: pointer;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
+  color: var(--color-mono-min);
   height: auto;
   display: inline-block;
   padding: 10px min(20px, 5%) 10px min(20px, 5%);
@@ -161,7 +181,7 @@ body {
 
 .markdown-section a.button-rounded {
   cursor: pointer;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
+  color: var(--color-mono-min);
   text-decoration: none !important;
 }
 
@@ -175,7 +195,7 @@ body {
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
-  border: 1px solid var(--link-color)!important;
+  border: 1px solid var(--link-color) !important;
   border-radius: 1.4rem;
 }
 
@@ -187,17 +207,17 @@ body {
 
 .markdown-section .navpill {
   cursor: pointer;
-  color: var(--color-mono-max)!important; /* DOCSIFY v5 */
+  color: var(--color-mono-max) !important;
   height: auto;
   display: inline-block;
-  border: 1px solid var(--color-mono-max); /* DOCSIFY v5 */
+  border: 1px solid var(--color-mono-max);
   border-radius: 4rem;
   padding: 4px 14px 4px 14px;
   margin-bottom: 4px;
   margin-right: 6px;
-  font-size: .8rem;
-  line-height: .9rem;
-  background-color: var(--color-mono-min); /* DOCSIFY v5 */
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  background-color: var(--color-mono-min);
   font-family: system-ui, sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -205,17 +225,20 @@ body {
 
 .markdown-section a.navpill {
   cursor: pointer;
-  color: var(--color-mono-max); /* DOCSIFY v5 */
-  border: 1px solid var(--color-mono-max); /* DOCSIFY v5 */
+  color: var(--color-mono-max);
+  border: 1px solid var(--color-mono-max);
   text-decoration: none !important;
 }
 
 .markdown-section .badge {
-  color: var(--badge-text-color, var(--color-mono-min)); /* DOCSIFY v5 */
-  background-color: var(--badge-bg-color, color-mix(in srgb, var(--color-mono-max) 60%, transparent)); /* DOCSIFY v5 */
+  color: var(--badge-text-color, var(--color-mono-min));
+  background-color: var(
+    --badge-bg-color,
+    color-mix(in srgb, var(--color-mono-max) 60%, transparent)
+  );
 
   display: inline-block;
-  padding: .25em .4em .25em .4em;
+  padding: 0.25em 0.4em 0.25em 0.4em;
   font-family: system-ui, sans-serif;
   font-size: 75%;
   font-weight: 700;
@@ -224,17 +247,43 @@ body {
   white-space: nowrap;
   vertical-align: middle;
   margin-top: -0.4em;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   text-decoration: none;
 }
 
 .markdown-section .badge a {
-  color: var(--badge-text-color, var(--color-mono-min))!important; /* DOCSIFY v5 */
+  color: var(--badge-text-color, var(--color-mono-min)) !important;
   text-decoration: none !important;
 }
 
-.markdown-section a[href$="?id=a"], .markdown-section a[href$='?id=b'], .markdown-section a[href$="?id=c"], .markdown-section a[href$="?id=d"], .markdown-section a[href$="?id=e"], .markdown-section a[href$="?id=f"], .markdown-section a[href$="?id=g"], .markdown-section a[href$="?id=h"], .markdown-section a[href$="?id=i"], .markdown-section a[href$="?id=j"], .markdown-section a[href$="?id=k"], .markdown-section a[href$="?id=l"], .markdown-section a[href$="?id=m"], .markdown-section a[href$="?id=n"], .markdown-section a[href$="?id=o"], .markdown-section a[href$="?id=p"], .markdown-section a[href$="?id=q"], .markdown-section a[href$="?id=r"], .markdown-section a[href$="?id=s"], .markdown-section a[href$="?id=t"], .markdown-section a[href$="?id=u"], .markdown-section a[href$="?id=v"], .markdown-section a[href$="?id=w"], .markdown-section a[href$="?id=x"], .markdown-section a[href$="?id=y"], .markdown-section a[href$="?id=z"] {
+.markdown-section a[href$="?id=a"],
+.markdown-section a[href$="?id=b"],
+.markdown-section a[href$="?id=c"],
+.markdown-section a[href$="?id=d"],
+.markdown-section a[href$="?id=e"],
+.markdown-section a[href$="?id=f"],
+.markdown-section a[href$="?id=g"],
+.markdown-section a[href$="?id=h"],
+.markdown-section a[href$="?id=i"],
+.markdown-section a[href$="?id=j"],
+.markdown-section a[href$="?id=k"],
+.markdown-section a[href$="?id=l"],
+.markdown-section a[href$="?id=m"],
+.markdown-section a[href$="?id=n"],
+.markdown-section a[href$="?id=o"],
+.markdown-section a[href$="?id=p"],
+.markdown-section a[href$="?id=q"],
+.markdown-section a[href$="?id=r"],
+.markdown-section a[href$="?id=s"],
+.markdown-section a[href$="?id=t"],
+.markdown-section a[href$="?id=u"],
+.markdown-section a[href$="?id=v"],
+.markdown-section a[href$="?id=w"],
+.markdown-section a[href$="?id=x"],
+.markdown-section a[href$="?id=y"],
+.markdown-section a[href$="?id=z"] {
   display: inline-flex;
   padding-top: 0px;
   padding-right: 6px;
@@ -243,13 +292,38 @@ body {
   line-height: 1.2em;
 }
 
-.markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
+.markdown-section #a,
+.markdown-section #b,
+.markdown-section #c,
+.markdown-section #d,
+.markdown-section #e,
+.markdown-section #f,
+.markdown-section #g,
+.markdown-section #h,
+.markdown-section #i,
+.markdown-section #j,
+.markdown-section #k,
+.markdown-section #l,
+.markdown-section #m,
+.markdown-section #n,
+.markdown-section #o,
+.markdown-section #p,
+.markdown-section #q,
+.markdown-section #r,
+.markdown-section #s,
+.markdown-section #t,
+.markdown-section #u,
+.markdown-section #v,
+.markdown-section #w,
+.markdown-section #x,
+.markdown-section #y,
+.markdown-section #z {
   width: 2em;
-  color: var(--color-mono-min); /* DOCSIFY v5 */
+  color: var(--color-mono-min);
   font-weight: 700;
-  margin-top: 1.00rem;
+  margin-top: 1rem;
   padding-left: 0.25rem;
-  background: color-mix(in srgb, var(--color-mono-max) 70%, transparent); /* DOCSIFY v5 */
+  background: color-mix(in srgb, var(--color-mono-max) 70%, transparent);
 }
 
 .markdown-section .accordion {
@@ -262,22 +336,21 @@ body {
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  border-left: 1px solid #CCCCCC;
-  border-radius: .15rem;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-radius: 0.15rem;
 }
 
 .markdown-section .accordion details {
-  padding: .0 1.25rem 1rem 1.25rem; /* DOCSIFY v5 */
+  padding: 0 1.25rem 1rem 1.25rem;
   margin-bottom: 0;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
 .markdown-section summary {
   cursor: pointer;
   color: var(--link-color);
-  /* margin-bottom:-8px; DOCSIFY v5 */
   padding: 0;
 }
 
@@ -293,12 +366,12 @@ body {
 }
 
 .markdown-section code {
-  white-space: pre-wrap!important;
+  white-space: pre-wrap !important;
   overflow-wrap: anywhere;
 }
 
 .markdown-section pre code {
-  word-break: break-all!important;
+  word-break: break-all !important;
 }
 
 .markdown-section a {
@@ -377,8 +450,14 @@ body {
   position: absolute;
   top: 0px;
   left: 0;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.4;
   z-index: -1;
 }
@@ -393,8 +472,14 @@ body {
   position: absolute;
   width: 100vw;
   max-width: 100vw;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.4;
   z-index: -1;
 }
@@ -483,11 +568,11 @@ body {
 }
 
 .markdown-section .column img {
-  padding-top: .35rem;
+  padding-top: 0.35rem;
 }
 
 .markdown-section .column-right img {
-  padding-top: .35rem;
+  padding-top: 0.35rem;
 }
 
 .markdown-section .reverse-columns .column {
@@ -500,106 +585,122 @@ body {
   clear: both;
 }
 
-@media screen and (max-width:800px) {
-  .markdown-section .column, .markdown-section .column-right {
+@media screen and (max-width: 800px) {
+  .markdown-section .column,
+  .markdown-section .column-right {
     width: 100%;
     padding-right: 0rem;
     padding-left: 0rem;
   }
 
-  .markdown-section .image-75, .markdown-section .image-50, .markdown-section .image-25, .markdown-section .image-75-border, .markdown-section .image-50-border, .markdown-section .image-25-border {
+  .markdown-section .image-75,
+  .markdown-section .image-50,
+  .markdown-section .image-25,
+  .markdown-section .image-75-border,
+  .markdown-section .image-50-border,
+  .markdown-section .image-25-border {
     width: 100%;
     height: auto;
   }
 }
 
-.markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
-  margin: 1em 0em .5em 0em;
+.markdown-section figure,
+.markdown-section p,
+.markdown-section ol,
+.markdown-section ul {
+  margin: 1em 0em 0.5em 0em;
 }
 
 .markdown-section hr {
-  margin-top: 1.2rem; /* DOCSIFY v5 */
+  margin-top: 1.2rem;
 }
 
 .markdown-section h1 {
-  font-size: 1.65rem; /* DOCSIFY v5 */
+  font-size: 1.65rem;
   line-height: 2.1rem;
   margin-top: 1.1rem;
-  margin-bottom: -.35rem;
+  margin-bottom: -0.35rem;
   padding-bottom: 0;
 }
 
 .markdown-section h2 {
-  font-size: 1.50rem; /* DOCSIFY v5 */
+  font-size: 1.5rem;
   line-height: 1.75rem;
-  margin-top: .9rem;
-  margin-bottom: -.15rem;
+  margin-top: 0.9rem;
+  margin-bottom: -0.15rem;
   padding-bottom: 0;
-  border-style: none; /* DOCSIFY v5 */
+  border-style: none;
 }
 
 .markdown-section h3 {
-  font-size: 1.35rem; /* DOCSIFY v5 */
+  font-size: 1.35rem;
   line-height: 1.65rem;
-  margin-top: .7rem;
-  margin-bottom: -.1rem;
+  margin-top: 0.7rem;
+  margin-bottom: -0.1rem;
   padding-bottom: 0;
 }
 
 .markdown-section h4 {
-  font-size: 1.25rem; /* DOCSIFY v5 */
+  font-size: 1.25rem;
   line-height: 1.4rem;
-  margin-top: .6rem;
-  margin-bottom: -.1rem;
+  margin-top: 0.6rem;
+  margin-bottom: -0.1rem;
   padding-bottom: 0;
 }
 
 .markdown-section h5 {
-  font-size: 1.15rem; /* DOCSIFY v5 */
+  font-size: 1.15rem;
   line-height: 1.3rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 0rem;
   padding-bottom: 0;
 }
 
 .markdown-section h6 {
-  font-size: 1.1rem; /* DOCSIFY v5 */
+  font-size: 1.1rem;
   line-height: 1.3rem;
-  margin-top: .4rem;
-  margin-bottom: -.1rem;
+  margin-top: 0.4rem;
+  margin-bottom: -0.1rem;
   padding-bottom: 0;
 }
 
-.markdown-section .alert hr, .markdown-section blockquote hr {
+.markdown-section .alert hr,
+.markdown-section blockquote hr {
   margin: 1em 0;
 }
 
-.markdown-section .alert h1, .markdown-section blockquote h1 {
+.markdown-section .alert h1,
+.markdown-section blockquote h1 {
   font-size: 1.45rem;
   line-height: 1.8rem;
 }
 
-.markdown-section .alert h2, .markdown-section blockquote h2 {
+.markdown-section .alert h2,
+.markdown-section blockquote h2 {
   font-size: 1.35rem;
   line-height: 1.7rem;
 }
 
-.markdown-section .alert h3, .markdown-section blockquote h3 {
+.markdown-section .alert h3,
+.markdown-section blockquote h3 {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
 
-.markdown-section .alert h4, .markdown-section blockquote h4 {
+.markdown-section .alert h4,
+.markdown-section blockquote h4 {
   font-size: 1.15rem;
-  line-height: 1.30rem;
+  line-height: 1.3rem;
 }
 
-.markdown-section .alert h5, .markdown-section blockquote h5 {
+.markdown-section .alert h5,
+.markdown-section blockquote h5 {
   font-size: 1.1rem;
   line-height: 1.25rem;
 }
 
-.markdown-section .alert h6, .markdown-section blockquote h6 {
+.markdown-section .alert h6,
+.markdown-section blockquote h6 {
   font-size: 1rem;
   line-height: 1.1rem;
 }
@@ -623,11 +724,10 @@ body .docsify-pagination-container {
   justify-content: space-between;
   overflow: hidden;
   margin: 3em 0 1em;
-  border-top: 0px solid rgba(0, 0, 0, .07);
+  border-top: 0px solid rgba(0, 0, 0, 0.07);
 }
 
 @media only screen and (max-width: 480px) {
-
   .markdown-section h1 {
     font-size: 1.45rem;
     line-height: 1.8rem;
@@ -658,32 +758,38 @@ body .docsify-pagination-container {
     line-height: 1.2rem;
   }
 
-  .markdown-section .alert h1, .markdown-section blockquote h1 {
+  .markdown-section .alert h1,
+  .markdown-section blockquote h1 {
     font-size: 1.3rem;
     line-height: 1.5rem;
   }
 
-  .markdown-section .alert h2, .markdown-section blockquote h2 { 
+  .markdown-section .alert h2,
+  .markdown-section blockquote h2 {
     font-size: 1.2rem;
     line-height: 1.4rem;
   }
 
-  .markdown-section .alert h3, .markdown-section blockquote h3 {
+  .markdown-section .alert h3,
+  .markdown-section blockquote h3 {
     font-size: 1.15rem;
     line-height: 1.4rem;
   }
 
-  .markdown-section .alert h4, .markdown-section blockquote h4 {
+  .markdown-section .alert h4,
+  .markdown-section blockquote h4 {
     font-size: 1.1rem;
     line-height: 1.3rem;
   }
 
-  .markdown-section .alert h5, .markdown-section blockquote h5 {
+  .markdown-section .alert h5,
+  .markdown-section blockquote h5 {
     font-size: 1.05rem;
     line-height: 1.3rem;
   }
 
-  .markdown-section .alert h6, .markdown-section blockquote h6 {
+  .markdown-section .alert h6,
+  .markdown-section blockquote h6 {
     font-size: 1rem;
     line-height: 1.15rem;
   }
