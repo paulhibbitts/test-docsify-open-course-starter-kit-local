@@ -70,6 +70,10 @@ body {
   transition: all 0.2s;
 }
 
+.pagination-item {
+  color: var(--link-color);
+}
+
 .markdown-section:has(.fas) h1,
 .markdown-section:has(.fab) h1,
 .markdown-section:has(.fas) h2,
