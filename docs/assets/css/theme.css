@@ -59,6 +59,10 @@ body {
   padding-top: 1rem;
 }
 
+.active:is(:is(.app-nav-merged,.sidebar-nav) li)>a {
+  font-weight: bold;
+}
+
 .pagination-item:not(:last-child) a .pagination-item-label,
 .pagination-item:not(:last-child) a .pagination-item-subtitle,
 .pagination-item:not(:last-child) a .pagination-item-title {
