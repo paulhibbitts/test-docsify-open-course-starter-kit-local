@@ -74,6 +74,10 @@ body {
   color: var(--link-color);
 }
 
+.pagination-item-title {
+  font-size: 1.3em!important;
+}
+
 .markdown-section:has(.fas) h1,
 .markdown-section:has(.fab) h1,
 .markdown-section:has(.fas) h2,
