@@ -55,10 +55,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.app-nav:not(:empty) ~ main .markdown-section {
-  padding-top: 1rem;
-}
-
 .active:is(:is(.app-nav-merged,.sidebar-nav) li)>a {
   font-weight: bold;
 }
