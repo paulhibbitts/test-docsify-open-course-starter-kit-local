@@ -19,6 +19,12 @@
 **Breaking:**
 * With the use of Docsify v5 Legacy Browsers (for example, Internet Explorer 11) are no longer supported
 
+## [v1.2.18](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.18)
+### 09/03/2024
+
+**Improved:**
+* Updated ReadMe
+
 ## [v1.2.17](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.17)
 ### 07/23/2024
 
