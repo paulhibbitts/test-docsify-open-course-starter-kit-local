@@ -596,7 +596,7 @@ body {
   clear: both;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .markdown-section .column,
   .markdown-section .column-right {
     width: 100%;
