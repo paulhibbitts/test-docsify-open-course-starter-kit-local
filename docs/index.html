@@ -10,12 +10,18 @@
   <link rel="icon" href="assets/favicon/favicon.png">
 
   <!-- Preload Default Source Sans 3 Fonts -->
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-regular.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
 
   <!-- Core Theme -->
   <link rel="stylesheet" href="assets/vendor/docsify/themes/core.min.css" />
@@ -34,8 +40,8 @@
 
   <style>
     :root {
-      --font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif; */
-      --line-height: 1.4;
+      --font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+      */ --line-height: 1.4;
       --font-size: 18px;
       --font-weight: 400;
       --content-max-width: 960px;
@@ -164,9 +170,9 @@
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
-        function(hook, vm) {
+        function (hook, vm) {
 
-          hook.afterEach(function(html, next) {
+          hook.afterEach(function (html, next) {
             // Invoked each time after the Markdown file is parsed.
             // beforeEach and afterEach support asynchronous。
             // ...
@@ -253,7 +259,7 @@
 
           });
 
-          hook.beforeEach(function(html) {
+          hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
@@ -272,7 +278,7 @@
           });
 
           // Invoked on each page load after new HTML has been appended to the DOM
-          hook.doneEach(function() {
+          hook.doneEach(function () {
             var hasEmbedly = document.getElementsByClassName('embedly-card');
             if (hasEmbedly.length > 0) {
               // console.log("Load Embedly");
@@ -304,17 +310,17 @@
             const allIframes = Array.from(document.querySelectorAll('iframe[src*="youtube.com"], iframe[src*="youtube-nocookie.com"], iframe[src*="docs.google.com"], iframe[src*="onedrive.live.com"]'));
 
             // Filter out iframes that are not already wrapped with a div including the classes 'video-container-16by9' and 'video-container-4by3'
-            const targetIframes = allIframes.filter(function(iframe) {
+            const targetIframes = allIframes.filter(function (iframe) {
               const parentDiv = iframe.parentNode;
               return !parentDiv.matches('.video-container-16by9, .video-container-4by3');
             });
 
             // Wrap each target iframe with a div element
-            targetIframes.forEach(function(iframe) {
+            targetIframes.forEach(function (iframe) {
               const wrapperDiv = document.createElement('div');
               wrapperDiv.classList.add('video-container-16by9');
               // Preserve existing classes on the iframe
-              iframe.classList.forEach(function(className) {
+              iframe.classList.forEach(function (className) {
                 wrapperDiv.classList.add(className);
               });
               // Replace the iframe with the wrapper div
@@ -332,8 +338,8 @@
 
             // Build the current URL without the hash
             let currentUrlWithoutHash = new URL(
-                location.origin + location.pathname +
-                location.search
+              location.origin + location.pathname +
+              location.search
             );
 
             // Get the search parameters from the URL (before the hash)
@@ -346,28 +352,28 @@
 
             // Check if the URL contains the 'id' query parameter in either search or hash
             if (isUrlHasIdQuery || isHashHasIdQuery) {
-                
-                // Get the 'id' from either search or hash
-                let urlId = isUrlHasIdQuery ? urlQueryParam.get(TARGET_QUERY) : hashParams.get(TARGET_QUERY);
 
-                // Delay the scrolling to ensure everything is loaded
-                setTimeout(function () {
-                    try {
-                        let targetElement = document.querySelector('#' + urlId);
-                        if (targetElement) {
-                            // Scroll to the element with smooth behavior
-                            targetElement.scrollIntoView({
-                                behavior: 'smooth',  // Enables smooth scrolling
-                                block: 'start',      // Aligns the top of the element to the top of the viewport
-                            });
-                        }
-                    } catch (e) {
-                        console.log('custom scroll failed', e);
-                    }
-                }, SCROLL_DELAY);
+              // Get the 'id' from either search or hash
+              let urlId = isUrlHasIdQuery ? urlQueryParam.get(TARGET_QUERY) : hashParams.get(TARGET_QUERY);
+
+              // Delay the scrolling to ensure everything is loaded
+              setTimeout(function () {
+                try {
+                  let targetElement = document.querySelector('#' + urlId);
+                  if (targetElement) {
+                    // Scroll to the element with smooth behavior
+                    targetElement.scrollIntoView({
+                      behavior: 'smooth',  // Enables smooth scrolling
+                      block: 'start',      // Aligns the top of the element to the top of the viewport
+                    });
+                  }
+                } catch (e) {
+                  console.log('custom scroll failed', e);
+                }
+              }, SCROLL_DELAY);
             }
           });
-          
+
         }
       ]
     }
