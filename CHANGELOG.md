@@ -15,9 +15,37 @@
 * Focus on hidden Sidebar items is prevented (via Docsify v5)
 * Top navbar can now accept focus (via Docsify v5)
 * Improved search results, which exclude Markdown formating syntax (via Docsify v5)
+* Changed default setting of `mergeNavbar` to true
 
 **Breaking:**
 * With the use of Docsify v5 Legacy Browsers (for example, Internet Explorer 11) are no longer supported
+
+## [v1.2.21](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.21)
+### XX/XX/2024
+
+**New:**
+* Added default setting of false for `mergeNavbar` to move Navbar items to the top of the Sidebar on smaller screens
+
+**Improved:**
+* Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
+* Cleanup HTML
+
+## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
+### 10/17/2024
+
+**Improved:**
+* Updated CSS with word-wrap for code blocks
+
+**Bugfix:**
+* Scroll offset fix (with thanks and appreciation to @rizdaprasetya for the initial code)
+* Added missing Markdown Prism language file
+* Fix formatting conflict with Prism formatted code blocks
+
+## [v1.2.19](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.19)
+### 10/09/2024
+
+**Improved:**
+* Minor theme update
 
 ## [v1.2.18](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.18)
 ### 09/03/2024
