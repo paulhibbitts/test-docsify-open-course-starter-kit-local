@@ -29,6 +29,10 @@
 **Improved:**
 * Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
 * Cleanup HTML
+* Updated Font Awesome Free assets to v6.6.0
+* Update uses of Font Awesome
+* Match Docsify-This CSS with Docsify Starter Kits CSS
+* Updated to use docsify-tabs plugin v1.6.2
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
 ### 10/17/2024
