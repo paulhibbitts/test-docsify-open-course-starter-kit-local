@@ -51,7 +51,6 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
@@ -59,8 +58,16 @@ body {
   padding-top: .25rem;
 }
 
-.active:is(:is(.app-nav-merged,.sidebar-nav) li)>a {
+.active.is(.app-nav-merged, .sidebar-nav) li > a {
   font-weight: bold;
+}
+
+/* Have the first sidebar item maintain a margin above with Docsify v5 */
+.sidebar-nav .app-sub-sidebar > li:first-child {
+  top: 0;
+  background-color: inherit;
+  z-index: 10; /* Keeps it above other items */
+  padding-top: 10px;
 }
 
 .pagination-item:not(:last-child) a .pagination-item-label,
@@ -80,26 +87,25 @@ body {
 
 .markdown-section:has(.fas) h1,
 .markdown-section:has(.fab) h1,
+.markdown-section:has(.svg-inline--fa) h1,
 .markdown-section:has(.fas) h2,
 .markdown-section:has(.fab) h2,
+.markdown-section:has(.svg-inline--fa) h2,
 .markdown-section:has(.fas) h3,
 .markdown-section:has(.fab) h3,
+.markdown-section:has(.svg-inline--fa) h3,
 .markdown-section:has(.fas) h4,
 .markdown-section:has(.fab) h4,
+.markdown-section:has(.svg-inline--fa) h4,
 .markdown-section:has(.fas) h5,
 .markdown-section:has(.fab) h5,
+.markdown-section:has(.svg-inline--fa) h5,
 .markdown-section:has(.fas) h6,
-.markdown-section:has(.fab) h6 {
+.markdown-section:has(.fab) h6,
+.markdown-section:has(.svg-inline--fa) h6 {
   display: flex;
   /* for Docsify-This and Starter Kits Font Awesome plugin Header content compatibility with Docsify v5 */
   gap: 0.15em;
-}
-
-.markdown-section figure,
-.markdown-section p,
-.markdown-section ol,
-.markdown-section ul {
-  margin: 0.75em 0em 0.5em 0em !important;
 }
 
 .markdown-section {
@@ -147,7 +153,10 @@ body {
   text-decoration: none !important;
   border: 1px solid var(--link-color);
   border-radius: 0.25rem !important;
-  outline: transparent !important;
+}
+
+.markdown-section .button[class="button"]:focus {
+  outline: 2px solid var(--link-color);
 }
 
 .markdown-section a.button[class="button"] {
@@ -396,6 +405,11 @@ body {
   overflow-wrap: anywhere;
 }
 
+/* Included to support earlier Markdown Schedule templates */
+.markdown-section h2 .fa-fw {
+  text-align: left;
+}
+
 .markdown-section .video-container-4by3 {
   position: relative;
   padding-bottom: 75%;
@@ -622,11 +636,23 @@ body {
 .markdown-section p,
 .markdown-section ol,
 .markdown-section ul {
-  margin: 1em 0em 0.5em 0em;
+  margin: 0.75em 0em 0.5em 0em;
+}
+
+.markdown-section li:not(:last-child) {
+  margin-bottom: .08em;
+}
+
+:is(.markdown-section ol,.markdown-section ul) :is(.markdown-section ol,.markdown-section ul) {
+  margin-top: .08em!important;
 }
 
 .markdown-section hr {
   margin-top: 1.2rem;
+}
+
+:is(.markdown-section h6), :is(.markdown-section h6)+:not(h1,h2,h3,h4,h5) {
+  font-size: 1em;
 }
 
 .markdown-section h1 {
@@ -811,12 +837,12 @@ body .docsify-pagination-container {
 
 /* Dark mode custom colours for use with Core Dark Theme (uncomment to use) */
 @media (prefers-color-scheme: dark) {
-/*
-  :root {
-
-    --theme-color: #0685D7!important;
-    --link-color: #0685D7!important;
-
+  /*
+    :root {
+  
+      --theme-color: #0685D7!important;
+      --link-color: #0685D7!important;
+  
+    }
   }
-}
 */
