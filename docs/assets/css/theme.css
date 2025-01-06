@@ -62,14 +62,6 @@ body {
   font-weight: bold;
 }
 
-/* Have the first sidebar item maintain a margin above with Docsify v5 */
-.sidebar-nav .app-sub-sidebar > li:first-child {
-  top: 0;
-  background-color: inherit;
-  z-index: 10; /* Keeps it above other items */
-  padding-top: 10px;
-}
-
 .pagination-item:not(:last-child) a .pagination-item-label,
 .pagination-item:not(:last-child) a .pagination-item-subtitle,
 .pagination-item:not(:last-child) a .pagination-item-title {
