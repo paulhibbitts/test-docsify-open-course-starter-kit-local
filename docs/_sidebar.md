@@ -3,14 +3,12 @@
 - [Week 2 (May 16 - 22)](module-02)
 - [Week 3 (May 23 - 29)](module-03)
 - [Week 4 (May 30 - Jun 5)](module-04)
-
-- LMS Links
+- **LMS Links**
 - [<i class="fas fa-calendar"></i> Calendar](https://canvas.sfu.ca/courses/44038/calendar)
 - [<i class="fas fa-edit"></i> Assignments](https://canvas.sfu.ca/courses/44038/assignments )
 - [<i class="fas fa-check-circle"></i> Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
 - [<i class="fas fa-comments"></i> Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
 - [<i class="fas fa-list"></i> Syllabus](https://canvas.sfu.ca/courses/44038/assignments/syllabus)
-
-- Project Info
+- **Project Info**
   - [GitHub Repository](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/)
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/blob/main/README.md)
