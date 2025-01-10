@@ -1,13 +1,14 @@
 # Changelog
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v2.0.0)
-### XX/XX/2024
+### XX/XX/2025
 
 **New:**
 * Docsify v5 used for all Markdown file rendering
 * Skip-link to content button, accessible via tab key (via Docsify v5)
 
 **Improved:**
+* Overall refined visual layout of various Markdown elements
 * Aria attributes for Sidebar toggle button and current page link (via Docsify v5)
 * Assigning proper roles and aria attributes to various site elements (via Docsify v5)
 * Support for keyboard shortcuts, e.g. \ for hide or show Sidebar (via Docsify v5)
@@ -15,6 +16,9 @@
 * Focus on hidden Sidebar items is prevented (via Docsify v5)
 * Top navbar can now accept focus (via Docsify v5)
 * Improved search results, which exclude Markdown formating syntax (via Docsify v5)
+
+**Bugfix:**
+* Handle use of Coverpage title link with duplicate id
 
 **Breaking:**
 * With the use of Docsify v5 Legacy Browsers (for example, Internet Explorer 11) are no longer supported
