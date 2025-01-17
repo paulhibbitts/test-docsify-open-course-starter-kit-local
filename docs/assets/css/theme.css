@@ -60,7 +60,7 @@ body {
   padding-top: .25rem;
 }
 
-.active.is(.app-nav-merged, .sidebar-nav) li > a {
+.active:is(:is(.app-nav-merged,.sidebar-nav) li)>a {
   font-weight: bold;
 }
 
