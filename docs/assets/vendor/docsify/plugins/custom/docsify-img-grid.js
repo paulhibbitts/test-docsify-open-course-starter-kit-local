@@ -11,6 +11,13 @@
 
     function createImageGrid(images, columns = config.columns, minWidth = config.minWidth) {
         const gridContainer = document.createElement('div');
+        gridContainer.className = 'img-grid';
+        gridContainer.style.cssText = `
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 1rem 0;
         `;
 
         images.forEach(img => {
