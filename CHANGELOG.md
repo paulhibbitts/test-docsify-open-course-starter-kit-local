@@ -15,6 +15,7 @@
 * Adjusted bottom margin for summary elements
 * Match Docsify-This CSS with Docsify Starter Kits CSS
 * Browser-level image lazy loading via plugin 'docsify-loading' no longer enabled by default to match updated Docsify-This behaviour
+* Default search plugin settings adjusted to match Docsify-This
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
 ### 12/03/2024
