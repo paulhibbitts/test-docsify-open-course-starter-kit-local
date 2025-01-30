@@ -166,6 +166,8 @@
       subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
+      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
+
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
       search: {
@@ -404,7 +406,7 @@
     }
   </script>
 
-  <!-- https://www.jsdelivr.com/package/npm/docsify/ -->
+  <!-- Docsify "develop" branch preview files -->
   <script src="assets/vendor/docsify/docsify.min.js"></script>
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
