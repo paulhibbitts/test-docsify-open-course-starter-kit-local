@@ -6,7 +6,7 @@
 **New:**
 * Support for image grid plugin, with customizations (with thanks and appreciation to @gllmAR)
 * Include zoom image plugin (not enabled by default)
-* Use of Docsify and Docsify Themeable preview build assets for access to upcoming Docsify accessibility enhancements authored by @jhildenbiddle (with thanks and appreciation to John)
+* Use of Docsify and Docsify Themeable preview build assets for access to upcoming Docsify accessibility enhancements authored by @jhildenbiddle (with thanks and appreciation to John and tested extensively in Docsify-This)
 
 **Improved:**
 * Updated ReadMe
