@@ -4,18 +4,20 @@
 ### XX/XX/2025
 
 **New:**
-* Docsify v5 used for all Markdown file rendering
-* Skip-link to content button, accessible via tab key (via Docsify v5)
+* Docsify v5 is now used for all Markdown file rendering
+* Adoption of the new and improved theme system in Docsify v5
+* Integration of Marked.js v15+ from Docsify v5
 
 **Improved:**
 * Overall refined visual layout of various Markdown elements
-* Aria attributes for Sidebar toggle button and current page link (via Docsify v5)
-* Assigning proper roles and aria attributes to various site elements (via Docsify v5)
-* Support for keyboard shortcuts, e.g. \ for hide or show Sidebar (via Docsify v5)
+* Skip-link to content button, accessible via tab key (now via Docsify v5)
+* Aria attributes for Sidebar toggle button and current page link (now via Docsify v5)
+* Assigning proper roles and aria attributes to various site elements (now via Docsify v5)
+* Support for keyboard shortcuts, e.g. \ for hide or show Sidebar (now via Docsify v5)
+* Focus on hidden Sidebar items is prevented (now via Docsify v5)
+* Top navbar can now accept focus (now via Docsify v5)
 * Keyboard scrolling is supported within code blocks (via Docsify v5)
-* Focus on hidden Sidebar items is prevented (via Docsify v5)
-* Top navbar can now accept focus (via Docsify v5)
-* Improved search results, which exclude Markdown formating syntax (via Docsify v5)
+* Improved search results, which exclude Markdown formatting syntax (via Docsify v5)
 
 **Bugfix:**
 * Handle use of Coverpage title link with duplicate id
