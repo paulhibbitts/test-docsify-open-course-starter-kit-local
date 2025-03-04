@@ -4,9 +4,9 @@
 ### XX/XX/2025
 
 **New:**
-* Docsify v5 is now used for all Markdown file rendering
-* Adoption of the new and improved theme system in Docsify v5
-* Integration of Marked.js v15+ from Docsify v5
+* Migrated to Docsify v5 for Markdown rendering, improving performance and feature support
+* Implemented Docsify v5's new theme system for enhanced customization and a modern user interface
+* Upgraded Markdown parsing to Marked.js v15+ (from Docsify v5), providing improved compatibility and rendering capabilities
 
 **Improved:**
 * Overall refined visual layout of various Markdown elements
