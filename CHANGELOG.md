@@ -28,7 +28,7 @@
 # Changelog
 
 ## [v1.3.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.0)
-### XX/XX/2025
+### 03/04/2025
 
 **New:**
 * Support for image grid plugin, including customizations (with thanks and appreciation to @gllmAR)
