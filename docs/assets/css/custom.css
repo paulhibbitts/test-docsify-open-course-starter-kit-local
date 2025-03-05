@@ -68,7 +68,7 @@ body .markdown-section {
     --link-underline-color: #0F6CBF!important;
     --link-underline-thickness: 0px!important;
     --link-underline-color-hover: #0F6CBF;
-    --link-underline-thickness-hover: 1px!important;
+    --link-underline-thickness-hover: auto!important;
 
     --blockquote-border-color: #0F6CBF!important;
 
@@ -96,7 +96,7 @@ body .markdown-section {
     --link-underline-color: #0B1660!important;
     --link-underline-thickness: 0px!important;
     --link-underline-color-hover: #0B1660;
-    --link-underline-thickness-hover: 1px!important;
+    --link-underline-thickness-hover: auto!important;
 
     --blockquote-border-color: #0B1660!important;
 
