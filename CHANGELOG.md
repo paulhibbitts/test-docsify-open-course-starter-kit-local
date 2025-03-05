@@ -4,7 +4,7 @@
 ### XX/XX/2025
 
 **New:**
-* Migrated to the modernized and refactored Docsify v5 platform
+* Built with the modernized and refactored Docsify v5 platform
 * Adoption of Docsify v5's new theme system for enhanced customization and a modern user interface
 * Use of Marked.js v15+ (from Docsify v5) for markdown rendering, providing improved compatibility and rendering capabilities
 
