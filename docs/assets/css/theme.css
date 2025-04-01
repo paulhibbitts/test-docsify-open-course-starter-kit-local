@@ -88,7 +88,24 @@ body {
 }
 
 /* for Docsify-This and Starter Kits Font Awesome plugin Header content compatibility with Docsify v5 */
-.markdown-section :is(h1, h2, h3, h4, h5, h6) {
+.markdown-section:has(.fas) h1,
+.markdown-section:has(.fab) h1,
+.markdown-section:has(.svg-inline--fa) h1,
+.markdown-section:has(.fas) h2,
+.markdown-section:has(.fab) h2,
+.markdown-section:has(.svg-inline--fa) h2,
+.markdown-section:has(.fas) h3,
+.markdown-section:has(.fab) h3,
+.markdown-section:has(.svg-inline--fa) h3,
+.markdown-section:has(.fas) h4,
+.markdown-section:has(.fab) h4,
+.markdown-section:has(.svg-inline--fa) h4,
+.markdown-section:has(.fas) h5,
+.markdown-section:has(.fab) h5,
+.markdown-section:has(.svg-inline--fa) h5,
+.markdown-section:has(.fas) h6,
+.markdown-section:has(.fab) h6,
+.markdown-section:has(.svg-inline--fa) h6 {
   display: flex;
   gap: 0.15em;
 }
