@@ -22,8 +22,10 @@
 }
 .markdown-section {
   /*   flex: 1 1 0%; */
-  margin-left: 47px /* DOCSIFY v5 */
+  margin-left: 20px; /* DOCSIFY v5 */
+  margin-right: 20px; /* DOCSIFY v5 */
 }
+
 .nav {
   width: var(--toc-width, 440px);
   min-width: 340px;
@@ -102,11 +104,11 @@ aside.nav.nothing {
   padding-top: 7px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
   .page_toc {
     position: relative;
     top: -18px;
-    padding: 0 0 0 40px; /* DOCSIFY v5 */
+    padding: 0 0 0 6px; /* DOCSIFY v5 */
     border: none;
     border-bottom: 1px solid #ddd;
     font-size: 1.0em;
@@ -129,8 +131,8 @@ aside.nav.nothing {
 
 /*
 .page_toc .active {
-  border-left: 5px solid;
-  color: var(--theme-color, #42b983);
-  padding-left: 10px;
+  // border-left: 5px solid;
+  color: var(--link-color, #0374B5);
+  // padding-left: 10px;
 }
 */
