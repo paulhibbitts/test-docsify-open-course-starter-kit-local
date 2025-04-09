@@ -1,16 +1,33 @@
 # Changelog
 
-## [v1.3.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.21)
-### XX/XX/2025
+## [v1.3.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.2)
+### 04/09/2025
+
+**Bugfix:**
+* Set margin instead of padding for images contained in columns
+
+## [v1.3.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.1)
+### 03/04/2025
+
+**Improved:**
+* Various minor enhancements to Search plugin
+* Adjusted default behaviour of image grid to add needed whitespace (padding) instead of cropping when source images are of different sizes (thanks to a helpful discussion with @davidmalawey)
+
+**Bugfix:**
+* Fixed incorrect theme CSS with regards to image scaling (with thanks and appreciation to @harlows for the PR)
+
+## [v1.3.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.0)
+### 02/04/2025
 
 **New:**
-* Support for image grid plugin, with customizations (with thanks and appreciation to @gllmAR)
+* Support for image grid plugin, including customizations (with thanks and appreciation to @gllmAR)
 * Include zoom image plugin (not enabled by default)
 * Use of Docsify and Docsify Themeable preview build assets for access to upcoming Docsify accessibility enhancements authored by @jhildenbiddle (with thanks and appreciation to John and tested extensively in Docsify-This)
 
 **Improved:**
 * Updated ReadMe
 * Updated example custom CSS for Moodle LMS
+* Updated to latest stable Docsify 4.x preview build (including Marked 4.2.12)
 * Support horizontal scrolling in code blocks
 * Adjusted bottom margin for summary elements
 * Match Docsify-This CSS with Docsify Starter Kits CSS
