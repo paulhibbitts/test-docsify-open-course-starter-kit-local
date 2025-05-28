@@ -1,0 +1,119 @@
+/* Fix for Coverpage title link colors with preview build of Docsify v5 theme */
+.cover h1 a {
+  color: var(--cover-title-color);
+}
+.cover h1 a .hover {
+  color: var(--link-color) !important;
+}
+
+/* Fix for Transparent iframe support for both light and dark modes with preview build of Docsify v5 theme */
+iframe,
+iframe *,
+iframe[src],
+iframe[src] * {
+    color-scheme: light dark !important;
+}
+@media (prefers-color-scheme: dark) {
+    iframe,
+    iframe *,
+    iframe[src],
+    iframe[src] * {
+        color-scheme: light !important;
+    }
+}
+
+/* Fix for inline codeblock contrast within shaded table rows with preview build of Docsify v5 theme */
+.markdown-section code {
+  background: var(--color-mono-2);
+}
+
+/* Patch for Font Awesome plugin Header content compatibility with Docsify v5 */
+.markdown-section:has(.fas) h1,
+.markdown-section:has(.fab) h1,
+.markdown-section:has(.svg-inline--fa) h1,
+.markdown-section:has(.fas) h2,
+.markdown-section:has(.fab) h2,
+.markdown-section:has(.svg-inline--fa) h2,
+.markdown-section:has(.fas) h3,
+.markdown-section:has(.fab) h3,
+.markdown-section:has(.svg-inline--fa) h3,
+.markdown-section:has(.fas) h4,
+.markdown-section:has(.fab) h4,
+.markdown-section:has(.svg-inline--fa) h4,
+.markdown-section:has(.fas) h5,
+.markdown-section:has(.fab) h5,
+.markdown-section:has(.svg-inline--fa) h5,
+.markdown-section:has(.fas) h6,
+.markdown-section:has(.fab) h6,
+.markdown-section:has(.svg-inline--fa) h6 {
+  display: flex;
+  gap: 0.15em;
+}
+
+/* Patch for Topics index links with Docsify v5 */
+.markdown-section a[href$="?id=a"],
+.markdown-section a[href$="?id=b"],
+.markdown-section a[href$="?id=c"],
+.markdown-section a[href$="?id=d"],
+.markdown-section a[href$="?id=e"],
+.markdown-section a[href$="?id=f"],
+.markdown-section a[href$="?id=g"],
+.markdown-section a[href$="?id=h"],
+.markdown-section a[href$="?id=i"],
+.markdown-section a[href$="?id=j"],
+.markdown-section a[href$="?id=k"],
+.markdown-section a[href$="?id=l"],
+.markdown-section a[href$="?id=m"],
+.markdown-section a[href$="?id=n"],
+.markdown-section a[href$="?id=o"],
+.markdown-section a[href$="?id=p"],
+.markdown-section a[href$="?id=q"],
+.markdown-section a[href$="?id=r"],
+.markdown-section a[href$="?id=s"],
+.markdown-section a[href$="?id=t"],
+.markdown-section a[href$="?id=u"],
+.markdown-section a[href$="?id=v"],
+.markdown-section a[href$="?id=w"],
+.markdown-section a[href$="?id=x"],
+.markdown-section a[href$="?id=y"],
+.markdown-section a[href$="?id=z"] {
+  display: inline-flex;
+  padding-top: 0px;
+  padding-right: 4px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  line-height: 1.2em;
+}
+.markdown-section #a,
+.markdown-section #b,
+.markdown-section #c,
+.markdown-section #d,
+.markdown-section #e,
+.markdown-section #f,
+.markdown-section #g,
+.markdown-section #h,
+.markdown-section #i,
+.markdown-section #j,
+.markdown-section #k,
+.markdown-section #l,
+.markdown-section #m,
+.markdown-section #n,
+.markdown-section #o,
+.markdown-section #p,
+.markdown-section #q,
+.markdown-section #r,
+.markdown-section #s,
+.markdown-section #t,
+.markdown-section #u,
+.markdown-section #v,
+.markdown-section #w,
+.markdown-section #x,
+.markdown-section #y,
+.markdown-section #z {
+  width: 2em;
+  color: var(--color-mono-min);
+  font-weight: 700;
+  margin-top: 1rem;
+  padding-left: 0.25rem;
+  background: color-mix(in srgb, var(--color-mono-max) 70%, transparent);
+}
