@@ -119,6 +119,62 @@ iframe[src] * {
 }
 
 /* Support for Docsify-This classes with preview build of Docsify v5 theme */
+.markdown-section .alert {
+  overflow: visible;
+  margin: .25em 0!important;
+  padding: .25em!important;
+}
+
+.markdown-section .alert ul {
+  list-style: none;
+  margin-top: 0.8em;
+}
+
+.markdown-section .alert ul li {
+  margin: 2px 0;
+}
+
+.markdown-section .alert ul li:before {
+  position: absolute;
+  content: "\2B29";
+  margin-left: -18px;
+}
+
+.markdown-section .alert hr {
+  margin: 1em 0;
+}
+
+.markdown-section .alert h1 {
+  font-size: 1.45rem;
+  line-height: 1.8rem;
+}
+
+.markdown-section .alert h2 {
+  font-size: 1.35rem;
+  line-height: 1.7rem;
+}
+
+.markdown-section .alert h3 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.markdown-section .alert h4 {
+  font-size: 1.15rem;
+  line-height: 1.3rem;
+}
+
+.markdown-section .alert h5 {
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+}
+
+.markdown-section .alert h6,
+.markdown-section blockquote h6 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
 .markdown-section .navpill {
   cursor: pointer;
   color: var(--color-mono-max) !important;
@@ -416,5 +472,37 @@ iframe[src] * {
   .markdown-section .image-25-border {
     width: 100%;
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .markdown-section .alert h1 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  .markdown-section .alert h2 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .markdown-section .alert h3 {
+    font-size: 1.15rem;
+    line-height: 1.4rem;
+  }
+
+  .markdown-section .alert h4 {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  .markdown-section .alert h5 {
+    font-size: 1.05rem;
+    line-height: 1.3rem;
+  }
+
+  .markdown-section .alert h6 {
+    font-size: 1rem;
+    line-height: 1.15rem;
   }
 }
