@@ -150,13 +150,13 @@ iframe[src] * {
 
 .markdown-section .alert h1 {
   font-size: 2.0rem;
-  line-height: 2.2rem;
+  line-height: 2.15rem;
 }
 
 .markdown-section .alert h2 {
   font-size: 1.7rem;
   margin-top: 1rem;
-  line-height: 1.9rem;
+  line-height: 1.8rem;
   padding-bottom: 0;
   border-style: none;
 }
