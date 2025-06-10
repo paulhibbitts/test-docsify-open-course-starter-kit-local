@@ -246,6 +246,38 @@ function test() {
 </div>
 ```
 
+`alert`  
+When the Docsify v5 theme is enabled, to style Blockquotes similarly to the default Docsify-This style.  
+
+```html
+<blockquote>
+<div class="alert">
+  <h2>What’s Happening This Week</h2>
+  <h3>How to explore the problem space?</h3>
+  <h4>Important Reminders</h4>
+  <ul>
+    <li><a href="#">Journey Map</a> assignment <span class='badge'> Tue Jun 12th 11:59pm PDT</span></li>
+    <li><a href="#">Course Reflection Log</a> assignment <span class='badge'> Fri Aug 3rd 11:59pm PDT</span></li>
+  </ul>
+
+  <h4>Required Reading</h4>
+  <ul>
+    <li>
+      <a href="https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/">
+        The Skeptic’s Guide To Low-Fidelity Prototyping
+      </a>
+    </li>
+  </ul>
+
+  <p>
+    <a href="https://canvas.sfu.ca/courses/44038/quizzes/166553" class="button primary">
+      Required Reading Quiz due Jun 4th
+    </a>
+  </p>
+</div>
+</blockquote>
+```
+
 `badge`  
 
 ```html
