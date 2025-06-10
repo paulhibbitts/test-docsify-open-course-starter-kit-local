@@ -125,8 +125,8 @@ iframe[src] * {
 
 .markdown-section .alert {
   overflow: visible;
-  margin: .25em 0!important;
-  padding: .25em!important;
+  margin: 1em 0 0 0!important;
+  color: var(--color-text):
 }
 
 .markdown-section .alert ul {
@@ -149,37 +149,42 @@ iframe[src] * {
 }
 
 .markdown-section .alert h1 {
-  font-size: 2.60rem;
-  line-height: 1.8rem;
+  font-size: 2.0rem;
+  line-height: 2.2rem;
 }
 
 .markdown-section .alert h2 {
-  font-size: 2.10rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.9rem;
   padding-bottom: 0;
   border-style: none;
 }
 
 .markdown-section .alert h3 {
-  font-size: 1.8rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .markdown-section .alert h4 {
-  font-size: 1.45rem;
-  line-height: 1.3rem;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
 }
 
 .markdown-section .alert h5 {
-  font-size: 1.35rem;
-  line-height: 1.25rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
 }
 
 .markdown-section .alert h6,
 .markdown-section blockquote h6 {
-  font-size: 1.25rem;
-  line-height: 1.1rem;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}
+
+.markdown-section .alert .button {
+    background: var(--button-bg);
+    color: var(--button-color);
 }
 
 .markdown-section .navpill {
@@ -484,32 +489,32 @@ iframe[src] * {
 
 @media only screen and (max-width: 480px) {
   .markdown-section .alert h1 {
-    font-size: 2.1rem;
-    line-height: 2.3rem;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
   }
 
   .markdown-section .alert h2 {
-    font-size: 1.8rem;
-    line-height: 2.1rem;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
   }
 
   .markdown-section .alert h3 {
-    font-size: 1.55rem;
-    line-height: 1.7rem;
+    font-size: 1.45rem;
+    line-height: 1.55rem;
   }
 
   .markdown-section .alert h4 {
-    font-size: 1.45rem;
-    line-height: 1.6rem;
-  }
-
-  .markdown-section .alert h5 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     line-height: 1.45rem;
   }
 
-  .markdown-section .alert h6 {
-    font-size: 1.2rem;
+  .markdown-section .alert h5 {
+    font-size: 1.25rem;
     line-height: 1.35rem;
+  }
+
+  .markdown-section .alert h6 {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
   }
 }
