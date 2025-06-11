@@ -126,7 +126,12 @@ iframe[src] * {
 .markdown-section .alert {
   overflow: visible;
   margin: 1em 0 0 0!important;
-  color: var(--color-text):
+  color: var(--color-text);
+}
+
+.markdown-section .alert a {
+  color: var(--color-text, #007acc); /* fallback if --color-link isn't defined */
+  text-decoration: underline; /* optional, for styling */
 }
 
 .markdown-section .alert ul {
