@@ -185,6 +185,7 @@ iframe[src] * {
 .markdown-section .alert .button {
     background: var(--button-bg);
     color: var(--button-color);
+    border-color: var(--button-bg);
 }
 
 .markdown-section .navpill {
