@@ -129,7 +129,7 @@ iframe[src] * {
   color: var(--color-text);
 }
 
-.markdown-section .alert a {
+.markdown-section .alert a not(:button) {
   color: var(--color-text, #007acc); /* fallback if --color-link isn't defined */
   text-decoration: underline; /* optional, for styling */
 }
