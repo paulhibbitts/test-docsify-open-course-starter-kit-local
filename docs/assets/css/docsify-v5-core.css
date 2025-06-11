@@ -125,7 +125,7 @@ iframe[src] * {
 
 .markdown-section .alert {
   overflow: visible;
-  margin: 1em 0 0 0!important;
+  margin: 0 0 0 0!important;
   color: var(--color-text):
 }
 
@@ -150,36 +150,30 @@ iframe[src] * {
 
 .markdown-section .alert h1 {
   font-size: 2.0rem;
-  line-height: 2.2rem;
 }
 
 .markdown-section .alert h2 {
   font-size: 1.7rem;
   margin-top: 1rem;
-  line-height: 1.85rem;
   padding-bottom: 0;
   border-style: none;
 }
 
 .markdown-section .alert h3 {
   font-size: 1.4rem;
-  line-height: 1.5rem;
 }
 
 .markdown-section .alert h4 {
   font-size: 1.3rem;
-  line-height: 1.4rem;
 }
 
 .markdown-section .alert h5 {
   font-size: 1.2rem;
-  line-height: 1.3rem;
 }
 
 .markdown-section .alert h6,
 .markdown-section blockquote h6 {
   font-size: 1.1rem;
-  line-height: 1.2rem;
 }
 
 .markdown-section .alert .button {
@@ -198,7 +192,7 @@ iframe[src] * {
   margin-bottom: 4px;
   margin-right: 6px;
   font-size: 0.8rem;
-  line-height: 0.9rem;
+  line-height: 1.2;
   background-color: var(--color-mono-min);
   font-family: system-ui, sans-serif;
   font-weight: bold;
@@ -490,31 +484,25 @@ iframe[src] * {
 @media only screen and (max-width: 480px) {
   .markdown-section .alert h1 {
     font-size: 2.0rem;
-    line-height: 2.2rem;
   }
 
   .markdown-section .alert h2 {
     font-size: 1.7rem;
-    line-height: 1.9rem;
   }
 
   .markdown-section .alert h3 {
     font-size: 1.45rem;
-    line-height: 1.55rem;
   }
 
   .markdown-section .alert h4 {
     font-size: 1.35rem;
-    line-height: 1.45rem;
   }
 
   .markdown-section .alert h5 {
     font-size: 1.25rem;
-    line-height: 1.35rem;
   }
 
   .markdown-section .alert h6 {
     font-size: 1.1rem;
-    line-height: 1.2rem;
   }
 }
