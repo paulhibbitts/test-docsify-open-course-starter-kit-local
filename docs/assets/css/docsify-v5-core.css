@@ -125,8 +125,8 @@ iframe[src] * {
 
 .markdown-section blockquote.announcement {
   overflow: visible;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: .75em;
+  padding-bottom: .75em;
   padding-right: 1em;
   color: var(--color-text);
 }
