@@ -123,60 +123,61 @@ iframe[src] * {
   background-color: var(--color-mono-1);
 }
 
-.markdown-section .announcement {
+.markdown-section blockquote.announcement {
   overflow: visible;
-  margin: 1em 0 0 0!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: var(--color-text);
 }
 
-.markdown-section .announcement ul {
+.markdown-section blockquote.announcement ul {
   list-style: none;
   margin-top: 0.8em;
 }
 
-.markdown-section .announcement ul li {
+.markdown-section blockquote.announcement ul li {
   margin: 2px 0;
 }
 
-.markdown-section .announcement ul li:before {
+.markdown-section blockquote.announcement ul li:before {
   position: absolute;
   content: "\2B29";
   margin-left: -18px;
 }
 
-.markdown-section .announcement hr {
+.markdown-section blockquote.announcement hr {
   margin: 1em 0;
 }
 
-.markdown-section .announcement h1 {
+.markdown-section blockquote.announcement h1 {
   font-size: 2.0rem;
 }
 
-.markdown-section .announcement h2 {
+.markdown-section blockquote.announcement h2 {
   font-size: 1.7rem;
   margin-top: 1rem;
   padding-bottom: 0;
   border-style: none;
 }
 
-.markdown-section .announcement h3 {
+.markdown-section blockquote.announcement h3 {
   font-size: 1.4rem;
   margin-top: 22px;
 }
 
-.markdown-section .announcement h4 {
+.markdown-section blockquote.announcement h4 {
   font-size: 1.3rem;
 }
 
-.markdown-section .announcement h5 {
+.markdown-section blockquote.announcement h5 {
   font-size: 1.2rem;
 }
 
-.markdown-section .announcement h6 {
+.markdown-section blockquote.announcement h6 {
   font-size: 1.1rem;
 }
 
-.markdown-section .announcement .button {
+.markdown-section blockquote.announcement .button {
     background: var(--button-bg);
     color: var(--button-color);
     border-color: var(--button-bg);
@@ -483,27 +484,27 @@ iframe[src] * {
 }
 
 @media only screen and (max-width: 480px) {
-  .markdown-section .announcement h1 {
+  .markdown-section blockquote.announcement h1 {
     font-size: 1.75rem;
   }
 
-  .markdown-section .announcement h2 {
+  .markdown-section blockquote.announcement h2 {
     font-size: 1.6rem;
   }
 
-  .markdown-section .announcement h3 {
+  .markdown-section blockquote.announcement h3 {
     font-size: 1.4rem;
   }
 
-  .markdown-section .announcement h4 {
+  .markdown-section blockquote.announcement h4 {
     font-size: 1.3rem;
   }
 
-  .markdown-section .announcement h5 {
+  .markdown-section blockquote.announcement h5 {
     font-size: 1.2rem;
   }
 
-  .markdown-section .announcement h6 {
+  .markdown-section blockquote.announcement h6 {
     font-size: 1.1rem;
   }
 }
