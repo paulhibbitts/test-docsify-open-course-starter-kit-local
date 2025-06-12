@@ -246,12 +246,11 @@ function test() {
 </div>
 ```
 
-`alert`  
+`announcement`  
 When the Docsify v5 theme is enabled, to style Blockquotes similarly to the default Docsify-This style.  
 
 ```html
-<blockquote>
-<div class="alert">
+<blockquote class="announcement">
   <h2>What’s Happening This Week</h2>
   <h3>How to explore the problem space?</h3>
   <h4>Important Reminders</h4>
@@ -274,7 +273,6 @@ When the Docsify v5 theme is enabled, to style Blockquotes similarly to the defa
       Required Reading Quiz due Jun 4th
     </a>
   </p>
-</div>
 </blockquote>
 ```
 
