@@ -119,65 +119,64 @@ iframe[src] * {
 }
 
 /* Support for Docsify-This classes with preview build of Docsify v5 theme */
-.markdown-section blockquote:has(.alert) {
+.markdown-section blockquote.announcement {
   background-color: var(--color-mono-1);
 }
 
-.markdown-section .alert {
+.markdown-section .announcement {
   overflow: visible;
   margin: 1em 0 0 0!important;
   color: var(--color-text);
 }
 
-.markdown-section .alert ul {
+.markdown-section .announcement ul {
   list-style: none;
   margin-top: 0.8em;
 }
 
-.markdown-section .alert ul li {
+.markdown-section .announcement ul li {
   margin: 2px 0;
 }
 
-.markdown-section .alert ul li:before {
+.markdown-section .announcement ul li:before {
   position: absolute;
   content: "\2B29";
   margin-left: -18px;
 }
 
-.markdown-section .alert hr {
+.markdown-section .announcement hr {
   margin: 1em 0;
 }
 
-.markdown-section .alert h1 {
+.markdown-section .announcement h1 {
   font-size: 2.0rem;
 }
 
-.markdown-section .alert h2 {
+.markdown-section .announcement h2 {
   font-size: 1.7rem;
   margin-top: 1rem;
   padding-bottom: 0;
   border-style: none;
 }
 
-.markdown-section .alert h3 {
+.markdown-section .announcement h3 {
   font-size: 1.4rem;
   margin-top: 22px;
 }
 
-.markdown-section .alert h4 {
+.markdown-section .announcement h4 {
   font-size: 1.3rem;
 }
 
-.markdown-section .alert h5 {
+.markdown-section .announcement h5 {
   font-size: 1.2rem;
 }
 
-.markdown-section .alert h6,
-.markdown-section blockquote h6 {
+.markdown-section .announcement h6 {
   font-size: 1.1rem;
 }
 
-.markdown-section .alert .button {
+.markdown-section .announcement .button {
     background: var(--button-bg);
     color: var(--button-color);
     border-color: var(--button-bg);
@@ -484,27 +483,27 @@ iframe[src] * {
 }
 
 @media only screen and (max-width: 480px) {
-  .markdown-section .alert h1 {
+  .markdown-section .announcement h1 {
     font-size: 1.75rem;
   }
 
-  .markdown-section .alert h2 {
+  .markdown-section .announcement h2 {
     font-size: 1.6rem;
   }
 
-  .markdown-section .alert h3 {
+  .markdown-section .announcement h3 {
     font-size: 1.4rem;
   }
 
-  .markdown-section .alert h4 {
+  .markdown-section .announcement h4 {
     font-size: 1.3rem;
   }
 
-  .markdown-section .alert h5 {
+  .markdown-section .announcement h5 {
     font-size: 1.2rem;
   }
 
-  .markdown-section .alert h6 {
+  .markdown-section .announcement h6 {
     font-size: 1.1rem;
   }
 }
