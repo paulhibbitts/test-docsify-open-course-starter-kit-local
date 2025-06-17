@@ -27,6 +27,16 @@ iframe[src] * {
   background: var(--color-mono-2);
 }
 
+/* Patch for legacy use of Pre on mobile with preview build of Docsify v5 theme */
+.markdown-section pre {
+  margin-top: 1rem;
+  overflow: auto;
+}
+.markdown-section pre {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
+}
+
 /* Patch for Font Awesome plugin Header content compatibility with Docsify v5 */
 .markdown-section:has(.fas) h1,
 .markdown-section:has(.fab) h1,

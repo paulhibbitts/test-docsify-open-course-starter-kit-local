@@ -248,16 +248,6 @@ body {
   display: inline-block;
 }
 
-.markdown-section pre {
-  margin-top: 1rem;
-  overflow: auto;
-}
-
-.markdown-section pre {
-  white-space: pre-wrap !important;
-  overflow-wrap: break-word;
-}
-
 .markdown-section a {
   overflow-wrap: anywhere;
 }
