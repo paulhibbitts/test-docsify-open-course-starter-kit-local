@@ -93,7 +93,7 @@ body {
 }
 
 .pagination-item-title {
-  font-size: 1.4em!important;
+  font-size: 1.4em !important;
 }
 
 .markdown-section {
@@ -269,7 +269,7 @@ body {
 }
 
 :is(.markdown-section ol,.markdown-section ul) :is(.markdown-section ol,.markdown-section ul) {
-  margin-top: .08em!important;
+  margin-top: .08em !important;
 }
 
 .markdown-section hr {
@@ -465,8 +465,8 @@ body .docsify-pagination-container {
 @media (prefers-color-scheme: dark) {
   :root {
 
-    --theme-color: #1BA1EE!important;
-    --link-color: #1BA1EE!important;
+    --theme-color: #1BA1EE !important;
+    --link-color: #1BA1EE !important;
 
   }
 }
