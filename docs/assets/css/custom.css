@@ -18,16 +18,13 @@ body .markdown-section {
 /* Link colors to match SFU branding visual styling (uncomment to use) */
 /*
 :root {
-
-    --theme-color: #CC0633!important;
-    --link-color: #CC0633!important;
+    --theme-color: #CC0633;
+    --link-color: #CC0633;
     --link-color-hover: var(--link-color);
-    --link-underline-color: #CC0633!important;
+    --link-underline-color: #CC0633;
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
-
-    --blockquote-border-color: #757B7F!important;
-
+    --blockquote-border-color: #757B7F;
 }
 */
 
@@ -35,16 +32,13 @@ body .markdown-section {
 /*
 @media (prefers-color-scheme: dark) {
 :root {
-
-    --theme-color: #EA7688!important;
-    --link-color: #EA7688!important;
+    --theme-color: #EA7688;
+    --link-color: #EA7688;
     --link-color-hover: var(--link-color);
-    --link-underline-color: #EA7688!important;
+    --link-underline-color: #EA7688;
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
-
-    --blockquote-border-color: #757B7F!important;
-
+    --blockquote-border-color: #757B7F;
     }
 }
 */
@@ -61,17 +55,14 @@ body .markdown-section {
 /* Link colors to match visual styling of Moodle LMS (uncomment to use) */
 /*
 :root {
-
-    --theme-color: #0F6CBF!important;
-    --link-color: #0F6CBF!important;
+    --theme-color: #0F6CBF;
+    --link-color: #0F6CBF;
     --link-color-hover: var(--link-color);
-    --link-underline-color: #0F6CBF!important;
-    --link-underline-thickness: 0px!important;
+    --link-underline-color: #0F6CBF;
+    --link-underline-thickness: 0px;
     --link-underline-color-hover: #0F6CBF;
-    --link-underline-thickness-hover: auto!important;
-
-    --blockquote-border-color: #0F6CBF!important;
-
+    --link-underline-thickness-hover: auto;
+    --blockquote-border-color: #0F6CBF;
 }
 */
 
@@ -89,16 +80,13 @@ body .markdown-section {
 /* Link colors to match visual styling of Sakai LMS (uncomment to use) */
 /*
 :root {
-
-    --theme-color: #0B1660!important;
-    --link-color: #0B1660!important;
+    --theme-color: #0B1660;
+    --link-color: #0B1660;
     --link-color-hover: var(--link-color);
-    --link-underline-color: #0B1660!important;
-    --link-underline-thickness: 0px!important;
+    --link-underline-color: #0B1660;
+    --link-underline-thickness: 0px;
     --link-underline-color-hover: #0B1660;
-    --link-underline-thickness-hover: auto!important;
-
-    --blockquote-border-color: #0B1660!important;
-
+    --link-underline-thickness-hover: auto;
+    --blockquote-border-color: #0B1660;
 }
 */
