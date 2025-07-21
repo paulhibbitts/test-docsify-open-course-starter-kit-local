@@ -8,7 +8,10 @@
 <a href="https://discord.gg/zT8eS8ZG">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
+
 > This is a starter kit to quickly create a Markdown-based open course site with the site generator [Docsify](https://docsify.js.org) (v5 Preview). To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@mandrasch](https://github.com/mandrasch) for the suggestion).
+
+Docsify sites use client-side rendering, which means your content will not be indexed by search engines like Google, Bing, or DuckDuckGo.
 
 📸 Docsify Open Course Screenshots
 ---
