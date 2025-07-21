@@ -27,11 +27,24 @@
 
 # Changelog
 
-## [v1.3.3](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.3)
+## [v1.3.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.4)
 ### XX/XX/2025
 
+**New:**
+* Added CSS Markdown classes to support cards (`card` & `card-rounded`) and responsive card lists (`card-list`)
+* Added CSS Markdown classes to support header overlays on full-width images (`header-image-full-width-headings-overlay` and `header-tall-image-full-width-headings-overlay`)
+
 **Improved:**
-* Updated to use docsify-footnotes plugin v2.2.1
+* Updated ReadMe
+
+**Bugfix:**
+* Minor CSS fixes
+
+## [v1.3.3](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.3)
+### 07/02/2025
+
+**Improved:**
+* Updated to use latest docsify-footnotes plugin (v2.2.1)
 
 ## [v1.3.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.2)
 ### 04/09/2025
