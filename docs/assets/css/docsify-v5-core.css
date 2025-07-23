@@ -76,6 +76,23 @@ iframe[src] * {
   padding-left: 4px;
   line-height: 1.4;
 }
+
+/* Support for Docsify-This classes with preview build of Docsify v5 theme */
+
+/* Target first paragraphs with 5+ links (reasonable index minimum) */
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) a {
+    padding: 0 2px;
+}
+
 .markdown-section #a,
 .markdown-section #b,
 .markdown-section #c,
@@ -104,13 +121,13 @@ iframe[src] * {
 .markdown-section #z {
   width: 2em;
   color: var(--color-mono-min);
+  font-size: var(--font-size-l);
   font-weight: 700;
   margin-top: 1rem;
   padding-left: 0.25rem;
   background: color-mix(in srgb, var(--color-mono-max) 70%, transparent);
 }
 
-/* Support for Docsify-This classes with preview build of Docsify v5 theme */
 .markdown-section blockquote.announcement {
   background-color: var(--color-mono-1);
 }
