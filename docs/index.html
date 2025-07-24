@@ -129,9 +129,9 @@
       maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
-      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
+      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || embedded),
 
-      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
+      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || embedded),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -338,7 +338,7 @@
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
-    if ((getURLParameterByName(['standalone', 'embedded']) || standalone)) {
+    if ((getURLParameterByName(['standalone', 'embedded']) || embedded)) {
       const root_theme = document.querySelector(':root');
       root_theme.style.setProperty('--content-margin-inline', '14px');
     }
