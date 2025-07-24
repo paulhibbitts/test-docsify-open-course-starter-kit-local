@@ -50,8 +50,8 @@
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Edit this Page';
 
-    // Set standalone to true to permanently hide the Sidebar and Navbar
-    var standalone = false;
+    // Set embedded to true to permanently hide the Sidebar and Navbar
+    var embedded = false;
 
     // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
     var ToC = false;
@@ -61,6 +61,9 @@
 
     // Set footer to true to permanently show the Footer ('_footer.md)
     var footer = false;
+
+    // Set docsifycoretheme to true to apply the Docsify v5 core theme defaults
+    var docsifycoretheme = false;
 
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
@@ -100,16 +103,23 @@
       return exists;
     }
 
+    if (docsifycoretheme ) {
+      var themeLink = document.getElementById('theme-css');
+      if (themeLink) {
+        themeLink.remove();
+      }
+    }
+
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
       name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
-      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
+      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || embedded || false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || embedded && !navbar || false),
       mergeNavbar: true,
-      externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
+      externalLinkTarget: embedded ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       executeScript: true,
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
@@ -163,54 +173,6 @@
 
             var htmlElement = document.createElement('div');
             htmlElement.innerHTML = html;
-
-            if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
-
-              // Carry any existing URL parms in links
-              var URLparms = '';
-
-              if (getURLParameterByName('standalone') || standalone) {
-                URLparms = `?standalone=true`;
-              }
-
-              if (getURLParameterByName('embedded')) {
-                URLparms = `?embedded=true`;
-              }
-
-              if (getURLParameterByName('hidegitlink')) {
-                URLparms = URLparms + `&hidegitlink=true`;
-              }
-
-              if (getURLParameterByName('navbar') || navbar) {
-                URLparms = URLparms + `&navbar=true`;
-              }
-
-              if (getURLParameterByName('toc') || ToC) {
-                URLparms = URLparms + `&toc=true`;
-              }
-
-              if (getURLParameterByName('footer') || footer) {
-                URLparms = URLparms + `&footer=true`;
-              }
-
-              const links = Array.from(htmlElement.querySelectorAll('a'))
-
-              for (const link of links) {
-                //console.log(link.getAttribute('href'));
-                // Find any local Markdown file links not including Docsify id anchor links
-                if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) === false)) {
-                  // Modify each Markdown file link to include existing parms
-                  var existingLink = link.getAttribute('href');
-                  //console.log(existingLink);
-                  // Update Markdown file link
-                  var newURL = existingLink + URLparms;
-                  //console.log("Changed:");
-                  //console.log(newURL);
-                  link.setAttribute('href', newURL);
-                  //console.log(link.getAttribute('href'));
-                }
-              }
-            }
 
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
