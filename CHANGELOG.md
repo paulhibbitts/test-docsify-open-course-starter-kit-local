@@ -9,6 +9,7 @@
 * Use of Marked.js v15+ (from Docsify v5) for markdown rendering, providing improved compatibility and rendering capabilities
 
 **Improved:**
+* Updated ReadMe
 * Overall refined visual layout of various Markdown elements
 * Skip-link to content button, accessible via tab key (now via Docsify v5)
 * Aria attributes for Sidebar toggle button and current page link (now via Docsify v5)
@@ -18,6 +19,7 @@
 * Top navbar can now accept focus (now via Docsify v5)
 * Keyboard scrolling is supported within code blocks (via Docsify v5)
 * Improved search results, which exclude Markdown formatting syntax (via Docsify v5)
+* Added variable for applying Docsify v5 core theme defaults
 
 **Bugfix:**
 * Handle use of Coverpage title link with duplicate id
