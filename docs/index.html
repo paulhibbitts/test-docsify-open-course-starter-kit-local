@@ -62,8 +62,8 @@
     // Set footer to true to permanently show the Footer ('_footer.md)
     var footer = false;
 
-    // Set docsifycoretheme to true to apply the Docsify v5 core theme defaults
-    var docsifycoretheme = false;
+    // Set corethemestyles to true to apply the Docsify v5 core theme defaults
+    var corethemestyles = false;
 
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
@@ -103,7 +103,7 @@
       return exists;
     }
 
-    if (docsifycoretheme) {
+    if (corethemestyles) {
       document.addEventListener('DOMContentLoaded', function() {
         var themeLink = document.getElementById('theme-css');
         if (themeLink) {
