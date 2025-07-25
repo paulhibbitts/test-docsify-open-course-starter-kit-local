@@ -228,7 +228,6 @@ iframe[src] * {
     --badge-bg-color,
     color-mix(in srgb, var(--color-mono-max) 60%, transparent)
   );
-
   display: inline-block;
   padding: 0.25em 0.4em 0.25em 0.4em;
   font-family: system-ui, sans-serif;
@@ -243,6 +242,11 @@ iframe[src] * {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   text-decoration: none;
+  
+  /* Add maximum width and ellipsis */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .markdown-section .badge a {
