@@ -103,11 +103,13 @@
       return exists;
     }
 
-    if (docsifycoretheme ) {
-      var themeLink = document.getElementById('theme-css');
-      if (themeLink) {
-        themeLink.remove();
-      }
+    if (docsifycoretheme) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var themeLink = document.getElementById('theme-css');
+        if (themeLink) {
+          themeLink.remove();
+        }
+      });
     }
 
     // Docsify
