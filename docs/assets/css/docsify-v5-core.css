@@ -37,6 +37,18 @@ iframe[src] * {
   overflow-wrap: break-word;
 }
 
+/* Patch for legacy use of inline Code on mobile with preview build of Docsify v5 theme */
+.markdown-section code {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
+}
+
+/* Patch for legacy use of non-Markdown long links to wrap */
+.markdown-section a {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
 /* Patch for Font Awesome plugin Header content compatibility with Docsify v5 */
 [id]:is(.markdown-section :where(h1,h2,h3,h4,h5,h6)) a:first-of-type {
   display: unset;
