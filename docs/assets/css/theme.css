@@ -290,7 +290,7 @@ body {
 
 .markdown-section h2 {
   font-size: 1.5rem;
-  line-height: 1.75rem;
+  line-height: 1.8rem;
   margin-top: 0.9rem;
   margin-bottom: -0.15rem;
   padding-bottom: 0;
@@ -299,7 +299,7 @@ body {
 
 .markdown-section h3 {
   font-size: 1.35rem;
-  line-height: 1.65rem;
+  line-height: 1.7rem;
   margin-top: 0.7rem;
   margin-bottom: -0.1rem;
   padding-bottom: 0;
@@ -307,7 +307,7 @@ body {
 
 .markdown-section h4 {
   font-size: 1.25rem;
-  line-height: 1.4rem;
+  line-height: 1.45rem;
   margin-top: 0.6rem;
   margin-bottom: -0.1rem;
   padding-bottom: 0;
@@ -315,7 +315,7 @@ body {
 
 .markdown-section h5 {
   font-size: 1.15rem;
-  line-height: 1.3rem;
+  line-height: 1.35rem;
   margin-top: 0.5rem;
   margin-bottom: 0rem;
   padding-bottom: 0;
@@ -400,27 +400,27 @@ body .docsify-pagination-container {
 
   .markdown-section h2 {
     font-size: 1.35rem;
-    line-height: 1.5rem;
+    line-height: 1.55rem;
   }
 
   .markdown-section h3 {
     font-size: 1.25rem;
-    line-height: 1.45rem;
+    line-height: 1.5rem;
   }
 
   .markdown-section h4 {
     font-size: 1.17rem;
-    line-height: 1.37rem;
+    line-height: 1.42rem;
   }
 
   .markdown-section h5 {
     font-size: 1.1rem;
-    line-height: 1.3rem;
+    line-height: 1.35rem;
   }
 
   .markdown-section h6 {
     font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
   }
 
   .markdown-section blockquote h1,
