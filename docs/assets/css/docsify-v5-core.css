@@ -176,31 +176,36 @@ iframe[src] * {
 }
 
 .markdown-section blockquote.announcement h1 {
-  font-size: 2.0rem;
+  font-size: 1.45rem;
+  line-height: 1.8rem;
 }
 
 .markdown-section blockquote.announcement h2 {
-  font-size: 1.7rem;
+  font-size: 1.35rem;
+  line-height: 1.7rem;
   margin-top: 1rem;
   padding-bottom: 0;
   border-style: none;
 }
 
 .markdown-section blockquote.announcement h3 {
-  font-size: 1.4rem;
-  margin-top: 22px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .markdown-section blockquote.announcement h4 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
+  line-height: 1.3rem;
 }
 
 .markdown-section blockquote.announcement h5 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.25rem;
 }
 
 .markdown-section blockquote.announcement h6 {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.1rem;
 }
 
 .markdown-section blockquote.announcement .button {
