@@ -344,7 +344,7 @@ body {
 .markdown-section blockquote.announcement h2 {
   font-size: 1.35rem;
   line-height: 1.7rem;
-  margin-top: 1rem;
+  margin-top: .7rem;
   padding-bottom: 0;
   border-style: none;
 }
