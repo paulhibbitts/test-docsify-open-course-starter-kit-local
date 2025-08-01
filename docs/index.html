@@ -50,13 +50,13 @@
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Edit this Page';
 
-    // Set embedded to true to permanently hide the Sidebar and Navbar
-    var embedded = false;
+    // Set standalone to true to permanently hide the Sidebar and Navbar
+    var standalone = false;
 
     // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
     var ToC = false;
 
-    // Set navbar to true to permanently override the hiding of the Navbar when embedded is true
+    // Set navbar to true to permanently override the hiding of the Navbar when standalone is true
     var navbar = false;
 
     // Set footer to true to permanently show the Footer ('_footer.md)
@@ -118,10 +118,10 @@
       // -----------------------------------------------------------------
       name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
-      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || embedded || false),
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || embedded && !navbar || false),
+      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       mergeNavbar: true,
-      externalLinkTarget: embedded ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
+      externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       executeScript: true,
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
@@ -131,9 +131,9 @@
       maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
-      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || embedded),
+      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
-      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || embedded),
+      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -340,7 +340,7 @@
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
-    if ((getURLParameterByName(['standalone', 'embedded']) || embedded)) {
+    if ((getURLParameterByName(['standalone', 'embedded']) || standalone)) {
       const root_theme = document.querySelector(':root');
       root_theme.style.setProperty('--content-margin-inline', '14px');
     }
