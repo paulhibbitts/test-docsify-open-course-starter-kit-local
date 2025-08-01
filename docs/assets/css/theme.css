@@ -114,7 +114,7 @@ body {
 .markdown-section blockquote ul, 
 .markdown-section blockquote.announcement ul {
   list-style: none;
-  margin-top: 0.8em;
+  margin-top: 0.2em;
 }
 
 .markdown-section blockquote ul li,
