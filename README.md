@@ -391,7 +391,7 @@ When the Docsify v5 theme is enabled, to style Blockquotes similarly to the defa
 `embedly-card` (for linked article previews, embedded slides/videos, etc.)  
 
 ```markdown
-<a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://blog.prototypr.io/defining-usability-e7bf42e8abd0">Defining usability</a>
+<a class="embedly-card" data-card-theme="light" data-card-controls="0" data-card-align="left" href="https://blog.prototypr.io/defining-usability-e7bf42e8abd0">Defining usability</a>
 ```
 
 `header-image-fade` (suggested width of 1200px to 2000px)  
