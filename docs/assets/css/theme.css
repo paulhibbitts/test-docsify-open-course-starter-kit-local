@@ -100,8 +100,7 @@ body {
   margin-top: 1.4rem;
 }
 
-.markdown-section blockquote,
-.markdown-section blockquote.announcement {
+.markdown-section blockquote {
   overflow: visible;
   margin: 1em 0;
   padding: 1em;
@@ -111,19 +110,16 @@ body {
   list-style: square outside none;
 }
 
-.markdown-section blockquote ul, 
-.markdown-section blockquote.announcement ul {
+.markdown-section blockquote ul {
   list-style: none;
   margin-top: 0.2em;
 }
 
-.markdown-section blockquote ul li,
-.markdown-section blockquote.announcement ul li {
+.markdown-section blockquote ul li {
   margin: 2px 0;
 }
 
-.markdown-section blockquote ul li:before,
-.markdown-section blockquote.announcement ul li:before {
+.markdown-section blockquote ul li:before {
   position: absolute;
   content: "\2B29";
   margin-left: -18px;
@@ -329,13 +325,11 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section blockquote hr,
-.markdown-section blockquote.announcement hr {
+.markdown-section blockquote hr {
   margin: 1em 0;
 }
 
-.markdown-section blockquote h1,
-.markdown-section blockquote.announcement h1 {
+.markdown-section blockquote h1 {
   font-size: 1.45rem;
   line-height: 1.8rem;
   margin-top: 0.6rem;
@@ -344,8 +338,7 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section blockquote h2, 
-.markdown-section blockquote.announcement h2 {
+.markdown-section blockquote h2 {
   font-size: 1.35rem;
   line-height: 1.7rem;
   margin-top: 0.5rem;
@@ -355,8 +348,7 @@ body {
   border-style: none;
 }
 
-.markdown-section blockquote h3, 
-.markdown-section blockquote.announcement h3 {
+.markdown-section blockquote h3 {
   font-size: 1.2rem;
   line-height: 1.5rem;
   margin-top: 0.4rem;
@@ -365,8 +357,7 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section blockquote h4, 
-.markdown-section blockquote.announcement h4 {
+.markdown-section blockquote h4 {
   font-size: 1.15rem;
   line-height: 1.3rem;
   margin-top: 0.3rem;
@@ -375,8 +366,7 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section blockquote h5, 
-.markdown-section blockquote.announcement h5 {
+.markdown-section blockquote h5 {
   font-size: 1.1rem;
   line-height: 1.25rem;
   margin-top: 0.2rem;
@@ -385,8 +375,7 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section blockquote h6, 
-.markdown-section blockquote.announcement h6 {
+.markdown-section blockquote h6 {
   font-size: 1rem;
   line-height: 1.1rem;
   margin-top: 0.1rem;
@@ -448,38 +437,32 @@ body .docsify-pagination-container {
     line-height: 1.2rem;
   }
 
-  .markdown-section blockquote h1,
-  .markdown-section blockquote.announcement h1 {
+  .markdown-section blockquote h1 {
     font-size: 1.3rem;
     line-height: 1.5rem;
   }
 
-  .markdown-section blockquote h2,
-  .markdown-section blockquote.announcement h2 {
+  .markdown-section blockquote h2 {
     font-size: 1.2rem;
     line-height: 1.4rem;
   }
 
-  .markdown-section blockquote h3,
-  .markdown-section blockquote.announcement h3 {
+  .markdown-section blockquote h3 {
     font-size: 1.15rem;
     line-height: 1.4rem;
   }
 
-  .markdown-section blockquote h4,
-  .markdown-section blockquote.announcement h4 {
+  .markdown-section blockquote h4 {
     font-size: 1.1rem;
     line-height: 1.3rem;
   }
 
-  .markdown-section blockquote h5,
-  .markdown-section blockquote.announcement h5 {
+  .markdown-section blockquote h5 {
     font-size: 1.05rem;
     line-height: 1.3rem;
   }
 
-  .markdown-section blockquote h6,
-  .markdown-section blockquote.announcement h6 {
+  .markdown-section blockquote h6 {
     font-size: 1rem;
     line-height: 1.15rem;
   }
