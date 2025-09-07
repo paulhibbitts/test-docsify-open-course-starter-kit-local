@@ -1,34 +1,3 @@
-/* Fix for Coverpage title link colors with preview build of Docsify v5 theme */
-.cover h1 {
-  position: relative;
-  color: var(--cover-title-color);
-  font: var(--cover-title-font);
-
-  a {
-    color: var(--cover-title-color);
-  }
-}
-
-/* Fix for Transparent iframe support for both light and dark modes with preview build of Docsify v5 theme */
-@media (prefers-color-scheme: dark) {
-  iframe,
-  iframe *,
-  iframe[src],
-  iframe[src] * {
-    color-scheme: light !important;
-  }
-}
-
-/* Fix for inline codeblock contrast within shaded table rows with preview build of Docsify v5 theme */
-.markdown-section code {
-  background: var(--color-mono-2);
-}
-
-/* Patch for Font Awesome plugin Header content compatibility with Docsify v5 */
-[id]:is(.markdown-section :where(h1,h2,h3,h4,h5,h6)) a:first-of-type {
-  display: unset;
-}
-
 /* Patch for legacy use of Pre on mobile with preview build of Docsify v5 theme */
 .markdown-section pre {
   margin-top: 1rem;
