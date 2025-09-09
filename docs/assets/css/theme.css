@@ -504,7 +504,7 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .s
 }
 
 /* Put secondary nav second */
-aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .app-nav-merged {
+aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) nav[aria-label="secondary"] {
     order: 2;
 }
 
