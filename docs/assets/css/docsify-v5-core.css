@@ -318,7 +318,8 @@
   height: auto;
 }
 
-aside#__sidebar .banner-image-sidebar {
+aside#__sidebar .card-image-sidebar,
+aside#__sidebar .card-image-sidebar-rounded {
   width: 100%; /* fills full width of sidebar */
   max-width: 240px; /* prevents it from getting too wide */
   height: auto;
@@ -328,19 +329,23 @@ aside#__sidebar .banner-image-sidebar {
   display: block;
 }
 
+aside#__sidebar .card-image-sidebar-rounded {
+  border-radius: 6px 6px 0 0;
+}
+
 /* Make sidebar a flex container when banner image exists */
-aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) {
+aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) {
     display: flex;
     flex-direction: column;
 }
 
 /* Put sidebar-nav (with image) first */
-aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) .sidebar-nav {
+aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .sidebar-nav {
     order: 1;
 }
 
 /* Put app-nav-merged second */
-aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) .app-nav-merged {
+aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .app-nav-merged {
     order: 2;
 }
 
