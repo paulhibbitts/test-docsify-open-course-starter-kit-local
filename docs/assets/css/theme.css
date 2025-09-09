@@ -485,6 +485,7 @@ aside#__sidebar .card-image-sidebar-rounded {
   max-height: 165px; /* prevents it from getting too tall */
   object-fit: cover; /* crops image to fit dimensions */
   display: block;
+  margin-top:0px;
 }
 
 aside#__sidebar .card-image-sidebar-rounded {
