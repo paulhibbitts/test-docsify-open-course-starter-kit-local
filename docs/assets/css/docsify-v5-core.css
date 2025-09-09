@@ -329,18 +329,18 @@ aside#__sidebar .banner-image-sidebar {
 }
 
 /* Make sidebar a flex container when banner image exists */
-aside#__sidebar:has(.sidebar-nav > .banner-image:first-child) {
+aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) {
     display: flex;
     flex-direction: column;
 }
 
 /* Put sidebar-nav (with image) first */
-aside#__sidebar:has(.sidebar-nav > .banner-image:first-child) .sidebar-nav {
+aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) .sidebar-nav {
     order: 1;
 }
 
 /* Put app-nav-merged second */
-aside#__sidebar:has(.sidebar-nav > .banner-image:first-child) .app-nav-merged {
+aside#__sidebar:has(.sidebar-nav > .banner-image-sidebar:first-child) .app-nav-merged {
     order: 2;
 }
 
