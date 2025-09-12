@@ -756,3 +756,40 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
     line-height: 1.15rem;
   }
 }
+
+@media print {
+  /* Hide UI elements */
+  .app-nav,
+  #__sidebar,
+  .sidebar,
+  aside,
+  nav,
+  .pagination-item,
+  .docsify-pagination-container,
+  .pagination {
+    display: none !important;
+  }
+
+  /* Reset layout for full width */
+  body,
+  main,
+  .content,
+  .markdown-section {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    transform: none !important;
+    position: static !important;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 2cm;
+  }
+
+  /* Prevent bad page breaks */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+}

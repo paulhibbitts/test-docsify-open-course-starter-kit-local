@@ -468,43 +468,6 @@ body .docsify-pagination-container {
   }
 }
 
-@media print {
-  /* Hide UI elements */
-  .app-nav,
-  #__sidebar,
-  .sidebar,
-  aside,
-  nav,
-  .pagination-item,
-  .docsify-pagination-container,
-  .pagination {
-    display: none !important;
-  }
-
-  /* Reset layout for full width */
-  body,
-  main,
-  .content,
-  .markdown-section {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
-    max-width: none !important;
-    transform: none !important;
-    position: static !important;
-  }
-
-  /* Page margins */
-  @page {
-    margin: 2cm;
-  }
-
-  /* Prevent bad page breaks */
-  h1, h2, h3, h4, h5, h6 {
-    page-break-after: avoid;
-  }
-}
-
 /* Dark mode custom colours for use with Core Dark Theme (uncomment to use, and remove @media statement and matching closing bracket for dark mode only) */
 /*
 @media (prefers-color-scheme: dark) {
