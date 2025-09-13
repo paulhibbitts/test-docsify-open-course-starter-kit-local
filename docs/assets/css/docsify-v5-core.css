@@ -759,6 +759,7 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
 
 @media print {
   /* Hide UI elements */
+  .cover,
   .app-nav,
   #__sidebar,
   .sidebar,
