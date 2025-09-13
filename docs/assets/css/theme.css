@@ -1055,6 +1055,7 @@ body .docsify-pagination-container {
 
 @media print {
   /* Hide UI elements */
+  .cover,
   .app-nav,
   #__sidebar,
   .sidebar,
