@@ -30,6 +30,7 @@
   <!-- <link rel="stylesheet" href="assets/vendor/docsify/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)"/> -->
 
   <link rel="stylesheet" href="assets/css/theme.css" id="theme-css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
   <link rel="stylesheet" href="assets/css/docsify-v5-core.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 
@@ -214,7 +215,7 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n'
+            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=edit-link")\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return html + '<br />' + '\n\n' + editHtml

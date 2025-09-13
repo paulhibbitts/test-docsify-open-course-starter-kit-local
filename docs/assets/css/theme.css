@@ -384,12 +384,12 @@ body {
   padding-bottom: 0;
 }
 
-.markdown-section .align-items-vertically {
+.markdown-section .edit-link {
   display: inline-flex;
   align-items: center;
 }
 
-.markdown-section .align-items-vertically .emoji {
+.markdown-section .edit-link .emoji {
   margin-right: 2px;
 }
 
