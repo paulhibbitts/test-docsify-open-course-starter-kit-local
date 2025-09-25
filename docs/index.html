@@ -338,10 +338,10 @@
                       // Ensure we don't scroll above the top of the page
                       scrollTop = Math.max(0, scrollTop);
                       
-                      // Scroll instantly to the element's top position minus topMargin
+                      // Scroll smoothly to the element's top position minus topMargin
                       window.scrollTo({
                         top: scrollTop,
-                        behavior: 'instant'  // Instant scroll to avoid visible adjustment
+                        behavior: 'smooth'
                       });
                     }
                   }
