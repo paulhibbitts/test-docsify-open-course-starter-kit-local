@@ -21,6 +21,7 @@
 * Keyboard scrolling is supported within code blocks (via Docsify v5)
 * Improved search results, which exclude Markdown formatting syntax (via Docsify v5)
 * Added variable for applying Docsify v5 core theme defaults
+* Updated support of Docsify config topMargin to CSS var `scroll-padding-top`
 
 **Bugfix:**
 * Handle use of Coverpage title link with duplicate id
