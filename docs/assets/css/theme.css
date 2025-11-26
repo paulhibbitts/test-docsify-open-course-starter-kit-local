@@ -63,6 +63,7 @@
   --blockquote-color: var(--color-text);
   --blockquote-bg: var(--color-mono-1);
   --docsifytabs-tab-color: var(--color-mono-max);
+  --scroll-padding-top: 10px;
 }
 
 body {
