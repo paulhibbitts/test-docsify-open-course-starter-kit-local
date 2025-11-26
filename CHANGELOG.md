@@ -31,8 +31,19 @@
 
 # Changelog
 
+## [v1.3.5](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.5)
+### 11/26/2025
+
+**New:**
+* Added sidebar banner image support via HTML image
+* Automatic image path resolution for HTML image assets using data-src attribute relative to site base path with fallback support
+* Added (long overdue) basic support for printing
+
+**Improved:**
+* Improved support for Docsify configuration settings of 'topMargin'
+
 ## [v1.3.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.4)
-### XX/XX/2025
+### 08/01/2025
 
 **New:**
 * Added CSS Markdown classes to support cards (`card` & `card-rounded`) and responsive card lists (`card-list`)
