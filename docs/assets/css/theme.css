@@ -398,6 +398,65 @@ body .app-nav a {
   text-decoration: none;
 }
 
+/* Responsive table layout - desktop */
+.markdown-section .table-wrapper td::before {
+    display: none;
+}
+
+/* Responsive table layout - mobile */
+@media (max-width: 30em) {
+    /* Convert to block layout */
+    .markdown-section .table-wrapper tbody,
+    .markdown-section .table-wrapper tr,
+    .markdown-section .table-wrapper td {
+        display: block;
+    }
+
+    /* Hide original headers */
+    .markdown-section .table-wrapper th {
+        display: none;
+    }
+
+    /* Remove borders */
+    .markdown-section .table-wrapper th,
+    .markdown-section .table-wrapper td {
+        border: none;
+    }
+
+    /* Cell styling with space for labels and increased vertical padding */
+    .markdown-section .table-wrapper td {
+        padding: .35em 0 .35em 8em; /* Increased from .15em to .35em for top/bottom */
+        position: relative;
+        text-align: left !important;
+    }
+
+    /* Add extra padding to first and last cells of each row */
+    .markdown-section .table-wrapper td:first-child {
+        padding-top: .7em; /* Extra space at top of each row */
+    }
+
+    .markdown-section .table-wrapper td:last-child {
+        padding-bottom: .7em; /* Extra space at bottom of each row */
+    }
+
+    /* This is the KEY part - makes the generated labels visible and positioned */
+    .markdown-section .table-wrapper td::before {
+        display: inline-block;
+        float: left;
+        width: 8em;
+        margin-left: -8em;
+        padding-left: 0.5em; /* Added space to the left of headers */
+        font-weight: bold;
+        text-align: left;
+        /* The content is set by your JavaScript */
+    }
+
+    /* Hide labels on empty cells */
+    .markdown-section .table-wrapper td:empty::before {
+        display: none;
+    }
+}
+
 body .docsify-pagination-container {
   display: flex;
   flex-wrap: wrap;
