@@ -4,6 +4,7 @@
 ### XX/XX/2026
 
 **Improved:**
+* Updated Mermaid to 11.17.2 (same as the Grav Mermaid plugin), turned on with the new mermaidDiagrams setting and loaded only on pages with diagrams; the included offline Mermaid file is updated too
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v2.0.0)
