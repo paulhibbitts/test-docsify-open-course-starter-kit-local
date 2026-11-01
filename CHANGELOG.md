@@ -14,6 +14,7 @@
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
 * A card's link button in its own paragraph now sits at the bottom of the card, lined up across the row
 * Cards in a list line up across each row (image, title, text), however long their titles are
+* An empty navbar no longer leaves space above the page
 * Updated ReadMe
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v2.0.0)
