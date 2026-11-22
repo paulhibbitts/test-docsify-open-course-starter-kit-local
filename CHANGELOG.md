@@ -17,6 +17,7 @@
 * Each page has its own Browser tab title, such as "Week 1 | CPT-363" or "Module 2 | CPT363-1"
 * The ← → keys go to the previous and next page
 * Updated ReadMe with where the Continue where you left off link goes, and what search engines can index
+* Badges have WCAG AA contrast: the default background is a little darker
 
 ## [v2.1.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v2.1.1)
 ### 11/17/2026
